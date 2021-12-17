@@ -3,39 +3,31 @@
 
 \usepackage{array}
 \usepackage{amssymb}
-\usepackage{times}
+%\usepackage{times}
 \usepackage[spanish, activeacute]{babel}
 \usepackage{graphicx}
 \usepackage{hyperref}
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
 \usepackage{xtab}
 \usepackage{color}
 \usepackage{lscape}
 \usepackage{longtable}
 \usepackage{tabularx}
-%\usepackage{fontspec}
-%\setsansfont{Gentium Basic}
+\usepackage{fontspec}
+\setsansfont{Roboto Condensed}
 \usepackage{colortbl}
 \usepackage{graphics}
 \usepackage{ltablex}
 \usepackage{cite}
 \usepackage{lscape}
-
+%\usepackage[T1]{fontenc}
 
 \newenvironment{colortext}[1]{\color{#1}}{\ignorespacesafterend}
 
 \renewcommand{\familydefault}{\sfdefault}
 
 
-
-
-\hyphenation{de-ri-va-das} \hyphenation{le-bes-gue}
-\hyphenation{e-llas} \hyphenation{o-cu-rrien-do}
-\hyphenation{pro-pie-da-des}\hyphenation{pi-vo-te}
-\hyphenation{dia-go-na-li} \hyphenation{e-cua-cion}
-\hyphenation{a-pro-pia-dos}\hyphenation{ma-te-ma-ti-cos}\hyphenation{es-tu-dian-te}
-\hyphenation{po-si-ti-vis-mo} \hyphenation{mo-de-li-za}
 
 
 
@@ -55,15 +47,23 @@
  \rhead[\fancyplain{}{\bfseries\leftmark}]{\fancyplain{}{\bfseries\thepage}}
 
 
+ \setlength{\headheight}{34.43594pt}
 
-
- \lhead[\fancyplain{}{\vspace{-1cm}\includegraphics[scale=.4]{membrete.jpg}}]{\fancyplain{}{\vspace{-1cm}\includegraphics[scale=.4]{membrete.jpg}}}
+ \lhead[\fancyplain{}{\vspace{-1cm}\includegraphics[scale=.4]{membrete.jpg}}]{\fancyplain{}{\vspace{-1cm}\includegraphics[scale=1]{membrete.png}}}
 
 \cfoot{}
 
 
 
 
+
+\hyphenation{de-ri-va-das} \hyphenation{le-bes-gue}
+\hyphenation{e-llas} \hyphenation{o-cu-rrien-do}
+\hyphenation{pro-pie-da-des}\hyphenation{pi-vo-te}
+\hyphenation{dia-go-na-li} \hyphenation{e-cua-cion}
+\hyphenation{a-pro-pia-dos}\hyphenation{ma-te-má-ti-cos}
+\hyphenation{es-tu-dian-te}
+\hyphenation{po-si-ti-vis-mo} \hyphenation{mo-de-li-za}
 
 
 
@@ -74,6 +74,9 @@
 
 
 \begin{document}
+
+
+
 
 \title{PLAN DE ESTUDIOS DE LA CARRERA LICENCIATURA EN MATEMÁTICA}
 \author{Plan 2022- Versión 0}
@@ -93,20 +96,20 @@
 
 Plan de Estudios de la 
 Carrera de Licenciatura en Matemática, de la Facultad de Ciencias Exactas, 
-Físico - Químicas y Naturales, de la Universidad Nacional de Río Cuarto. Que reemplaza el Plan de Estudio de la Licenciatrura en Matemática aprobado por resolución del Consejo Directivo Nº 156/08, 
-ratificada por resolución del Consejo Superior Nº 212/08.
+Físico - Químicas y Naturales (FCEFQyN), de la Universidad Nacional de Río Cuarto (UNRC), que  reemplaza el Plan de Estudio de la Licenciatura en Matemática aprobado por Resolución del Consejo Directivo (CD) Nº 156/08, 
+ratificada por Resolución del Consejo Superior (CS) Nº 212/08.
 
 
 \section{Responsables del proyecto}
 
 \subsection{Unidad académica responsable de la elaboración del proyecto}
 
-Comisión Curricular Permanente de la carrera Licenciatura en Matemática, dependiente de 
-la Facultad de Ciencias Exactas Físico-Químicas y Naturales.
+Comisión Curricular Permanente de la 
+la Facultad de Ciencias Exactas Físico-Químicas y Naturales de la carrera Licenciatura en Matemática, constituida por integrantes del Departamento de Matemática (DM), Departamento de Física (DF), alumnos y graduados nombrados por Res CD Nº  111/19.  
 
 \subsection{Unidad académica responsable de la implementación del proyecto}
 
-Facultad de Ciencias Exactas Físico-Químicas y Naturales. 
+Facultad de Ciencias Exactas Físico-Químicas y Naturales (FCEFQyN). 
 
 
 
@@ -114,19 +117,22 @@ Facultad de Ciencias Exactas Físico-Químicas y Naturales.
 
 \subsection{Razones que justifican la creación y o los cambios curriculares del proyecto de formación  y que justifican su realización}
 
-La actualización  contenida en esta propuesta da cuenta de cambios en las normativas de la UNRC en cuanto a planes de estudio y a lineamientos para la elaboración de los  mismos. Más específicamente se trató de ajustar el Plan de Estudios de la Lic. en Matemática a:
+La dinámica de la ciencia actual, con la aparición de líneas emergentes  de estudio,  y la propia dinámica de nuestra institución hacen necesaria una actualización del plan de estudios de la carrera para que éste de cuenta de los cambios operados.   
+
+
+Además, la actualización  contenida en esta propuesta  tiene en cuenta los   cambios en las normativas de la UNRC en cuanto a criterios para la elaboración de  planes de estudio y a lineamientos curriculares definidos para la UNRC. Más específicamente, se pretende  ajustar el Plan de Estudios de la Lic. en Matemática a:
 
 
 
 \begin{enumerate}
- \item La Resolución CS-UNRC 297/2017 que aprobó el documento ``Hacia   un   currículo contextualizado, flexible e integrado. Lineamientos para la orientación de la innovación  curricular'' que define dimensiones que la Universidad considera importantes a la hora de elaborar planes de estudios, en particular dimensiones epistemólogico-metodológicas, de contextualización, organización, de flexibilidad e integración curricular. 
+ \item La Resolución CS-UNRC 297/2017 que aprobó el documento ``Hacia   un   currículo contextualizado, flexible e integrado. Lineamientos para la orientación de la innovación  curricular'' que define dimensiones que la Universidad considera importantes a la hora de elaborar planes de estudios, en particular dimensiones epistemológico-metodológicas, de contextualización, organización, de flexibilidad e integración curricular. 
 
- \item La Resolución CS-UNRC 298/2017 que implementa el Proyecto de Innovación e Investigación para el Mejoramiento Estratégico Institucional (PIIMEI). Como parte de este Proyecto, la Comisión Curricular Permanente de la Licenciatura en Matemática junto con docentes y alumnos de la carrera emprendió una investigación del currículo de la carrera.  Parte de las conclusiones obtenidas fueron plasmandas en un Informe ``Actividades de Investigación Evaluativa
-Licenciatura en Matemática'' el cual fue evaluado por expertos en curriculo universitario.
+ \item La Resolución CS-UNRC 298/2017  que implementó  el Proyecto de Innovación e Investigación para el Mejoramiento Estratégico Institucional (PIIMEI). Como parte de este Proyecto, la Comisión Curricular Permanente de la Licenciatura en Matemática junto con docentes y alumnos de la carrera emprendió una investigación del currículo de la carrera.  Parte de las conclusiones obtenidas fueron plasmadas  en el Informe ``Actividades de Investigación Evaluativa
+Licenciatura en Matemática'' el cual fue evaluado por expertos en currículo universitario  convocados por la UNRC.
 
-\item La Resolución CS-UNRC 510/2017 se actualizó el Plan Estratégico Institucional (PEI 2017-2023) el cual se constituye como documento orgánico con miras al desarrollo integral de la universidad, con emplazamiento geográfico y social. Los lineamientos del PEI de la UNRC representan la plataforma desde donde avanzar en la proyección de políticas institucionales de la Universidad en su conjunto y para nuestra Facultad en particular, que atienden necesidades actuales y proponen caminos de actuación a futuro.
+\item La Resolución CS-UNRC 510/2017  actualizó el Plan Estratégico Institucional (PEI 2017-2023) el cual se constituye como documento orgánico con miras al desarrollo integral de la universidad, con emplazamiento geográfico y social. Los lineamientos del PEI de la UNRC representan la plataforma desde donde avanzar en la proyección de políticas institucionales de la Universidad en su conjunto y para la FCEFQyN en particular, que atienden necesidades actuales y proponen caminos de actuación a futuro.
 
-\item La Resolución CD-FCEFQyN 410/2019 que aprueba el Plan Estratégico de la Facultad de Ciencias Exactas Físico-Químicas y Naturales (PEExa 2019-2023). En particular, en el Capítulo III, Sección 1 define objetivos de la institución para la enseñanza de grado.   
+\item La Resolución CD-FCEFQyN 410/2019 que aprobó  el Plan Estratégico de la FCEFQyN (PEExa 2019-2023). En particular, en el Capítulo III, Sección 1 define objetivos de la institución para la enseñanza de grado.   
 
  \item La Resolución CS-UNRC 008/2021 que establece los conceptos, normas y procedimientos que regulan los procesos de elaboración, presentación, formalización, aprobación, seguimiento, evaluación y tramitación de reconocimiento de Nuevos Planes de Estudio y de modificaciones que impliquen nuevas versiones de los Planes de Estudio existentes.
 
@@ -134,30 +140,30 @@ Licenciatura en Matemática'' el cual fue evaluado por expertos en curriculo uni
 
 \subsection{Razones que determinan la conveniencia de la implementación de proyecto curricular  y que justifican su realización.}
 
-La presente propuesta incorpora o profundiza los siguientes aspectos en la elaboración de planes de estudio: 
+La presente propuesta incorpora o profundiza los siguientes criterios en la elaboración de planes de estudio: 
 
 \begin{enumerate}
-\item Contextualización y visión totalizante. Se analizaron las características de la población concreta de estudiantes a los que va dirigida la propuesta, las caracteríticas en cuanto a formación e intereses de investigación del plantel de docentes que ejecutará el plan, nuevas áreas emergentes, como el caso del análisis de grandes conjuntos de datos. Además se tomó en consideración aspectos administrativos, como por ejemplo aquellos que devienen del uso de la plataforma SIAL. 
+\item  Contextualización y visión totalizante. Se analizaron las características de la población concreta de estudiantes a la que va dirigida la propuesta, las características en cuanto a formación e intereses de investigación del plantel de docentes que ejecutará el plan, nuevas áreas emergentes, como el caso del análisis de grandes conjuntos de datos. Además se tomó en consideración aspectos administrativos, como por ejemplo aquellos que devienen del uso de la plataforma SIAL. 
 \item Flexibilidad curricular. Al ciclo de optativas y trabajo final se agrega una materia electiva.
 \item Organización curricular mixta. Se definen ciclos de formación y problemas transversales en la práctica docente. 
 \item Transversalidad de la práctica profesional. Este punto es consecuencia del anterior.
-\item Incorporación de espacios de formación socio-política-cultural con la incorporación de \textcolor{red}{xxxxxx}
+\item Incorporación de espacios de formación socio-política-cultural y pedagógica.
 \end{enumerate}
 
 A esto se suma la necesidad de resolver las siguientes cuestiones más coyunturales del plan vigente.
 
 \begin{enumerate}
-\item Inconsistencia de la carga horaria de asignaturas homólogas en distintos planes de estudios (Probabilidades 1987).
+\item Inconsistencia de la carga horaria de asignaturas  comúnes a distintos planes de estudios (Probabilidades 1987).
 
 \item Se modifican correlatividades atendiendo a necesidades emergentes de nuevos desafíos en la enseñanza (Probabilidades 1987). 
 
-\item Mayor flexibilidad del ciclo de especialización. No se especifican materias optativas, en cuanto a contenidos ni siquiera nombres. Se detectó que en los planes previos la existencia de diversas materias optativas con diferentes denominaciones causaba problemas en cuanto a la ejecución del plan a nivel administrativo.  
+\item Mayor flexibilidad del ciclo de especialización.  En relación a las  materias optativas no se especifican ni sus nombres ni sus  contenidos. La existencia de diversas materias optativas con diferentes denominaciones causa problemas en la ejecución del plan a nivel administrativo.  
 \end{enumerate}
 
 
 \subsection{Correspondencia con los fines y objetivos de la Universidad}
 
-Los fines y objetivos de la Universidad y de la Facultad de Ciencias, Exáctas Físico-Químicas y Naturales están definidos en el Estatuto Universitario y en el Plan Estratégico Institucional (PEI) y en el Plan Estratégico  de la Facultad (PEExa). El plan de estudios de la Licenciatura de Matemática se enmarca dentro de los objetivos y fines declarados en los anteriores documentos, especialmente por las consideraciones en ellos establecidas  que enumeramos debajo. 
+Los fines y objetivos de la Universidad y de la FCEFQyN están definidos en el Estatuto Universitario, en el Plan Estratégico Institucional (PEI) y en el Plan Estratégico  de la FCEFQyN (PEExa). El plan de estudios de la Licenciatura de Matemática se enmarca dentro de los objetivos y fines declarados en los anteriores documentos, especialmente por las consideraciones en ellos establecidas  que enumeramos debajo. 
 
 
 \begin{description}
@@ -167,7 +173,7 @@ Los fines y objetivos de la Universidad y de la Facultad de Ciencias, Exáctas F
 \item ``Productora, distribuidora y difusora de conocimiento socialmente útil y público, es
 decir, provisional, histórico, criticable, no dogmático, hipotético, abierto a la
 pregunta, al cuestionamiento y al contraste riguroso. Como tal deberá ser reflexiva
-y proactiva, capaz de autoevaluarse en forma permanente y, así, comprender y
+y proactiva, capaz de auto evaluarse en forma permanente y, así, comprender y
 mejorar sus procesos y sus productos''
 
 
@@ -247,9 +253,9 @@ ratificada por resolución del CS-UNRC Nº 212/08.  Nueva introducción de modif
 \subsubsection{Actividades de docencia, investigación o extensión realizadas por la universidad vinculadas  al proyecto.}
 
 \begin{description}
- \item[Docencia] Como se mencionó hay una larga trayectoria  de nuestra Facultad en el dictado de carreras de grado y posgrado  vinculadas con la matemática, particularmente la Licenciatura en Matemática, el Profesorado en Matemática, Maestría en Matemática Aplicada y Especialidad en Didáctica de la Matemática. Además de estos antecedentes, merece mencionarse que diversas carreras de nuestra y de otras facultades requieren el dictado de materias vinculadas con la matemática y por tanto es necesario la formación de docentes altamente calificados en esta disciplina. Nuestros egresados forman parte de los departamentos de matemática de otras facultades de nuestra universidad.
+ \item[Docencia] Como se mencionó hay una larga trayectoria  de la FCEFQyN en el dictado de carreras de grado y posgrado  vinculadas con la matemática, particularmente la Licenciatura en Matemática, el Profesorado en Matemática, Maestría en Matemática Aplicada y Especialidad en Didáctica de la Matemática. Además de estos antecedentes, merece mencionarse que diversas carreras de nuestra y de otras facultades requieren el dictado de materias vinculadas con la matemática y por tanto es necesario la formación de docentes altamente calificados en esta disciplina. Nuestros egresados forman parte de los departamentos de matemática de otras facultades de la UNRC.
  
- \item[Investigación] Dentro del departamento de matemática de la FCEFQyN se ejecutan regularmente  proyectos financiados tanto por SECyT-UNRC como por organismos de financiamiento de actividades científicas de orden  nacional como ANPCyT y CONICET. Investigadores y becarios del CONICET desarrollan sus actividades en la mencionada unidad académica. Se participa de proyectos y grupos interdisciplinarios, por ejemplo en  facultades de ingeniería, miembros del departamento forman parte  del Instituto de Investigaciones Sociales, Territoriales y  Educativas. Por otra parte se desarrollan actividades de investigación que requieren fuertemente el uso de la matemática en otras facultades de nuestra universidad, por ejemplo en las Facultades de Ciencias Económicas (FCE) e Ingeniería (FI).
+ \item[Investigación] Dentro del DM     se ejecutan regularmente  proyectos financiados tanto por SECyT-UNRC como por organismos de financiamiento de actividades científicas de orden  nacional como ANPCyT y CONICET. Investigadores y becarios del CONICET desarrollan sus actividades en la mencionada unidad académica. Se participa de proyectos y grupos interdisciplinarios, por ejemplo en  facultades de ingeniería, miembros del departamento forman parte  del Instituto de Investigaciones Sociales, Territoriales y  Educativas. Por otra parte se desarrollan actividades de investigación que requieren fuertemente el uso de la matemática en otras facultades de nuestra universidad, por ejemplo en las Facultades de Ciencias Económicas (FCE) e Ingeniería (FI).
  
 
  
@@ -265,14 +271,14 @@ ratificada por resolución del CS-UNRC Nº 212/08.  Nueva introducción de modif
 
 En la elaboración de este plan de estudios se tuvieran en cuenta las siguientes experiencias y antecedentes.
 \begin{description}
- \item[Unión Matemática Argentina]  Es la asociación que agrupa a los matemáticos del país.  La UMA convocó a matemáticos de reconicida trayectoria a nivel internacional, quienes elaboraron un documento (ver \cite{uma}) 
+ \item[Unión Matemática Argentina]  Es la asociación que agrupa a los matemáticos del país.  La UMA convocó a matemáticos de reconocida trayectoria a nivel internacional, quienes elaboraron un documento (ver \cite{uma}) 
  dando cuenta de sugerencias curriculares para la carrera de Licenciatura en Matemática.
  
  \item[Foro UMA-CUCEN] En el marco de las reuniones periódicas del Consejo Universitario Ciencias Exactas y Naturales (CUCEN) se realizó durante los años 2017-2018 un foro donde se debatieron ciclos de formación con el propósito de favorecer la movilidad de los estudiantes entre carreras de Licenciatura en Matemática del país. Nuestra carrera participó activamente de este foro. Es de destacar que fruto de esta participación, y como parte del proyecto PIIMEI, se hizo una comparativa entre los distintos planes, más específicamente se definieron distintas nudos conceptuales y se identificaron las carreras de Licenciatura en Matemática de Argentina que trabajan dichos nudos (ver \cite{CCP}). 
 
 \item[Sistema Nacional de Reconocimiento Académico (SNRA)] Fue creado por la Resolución Ministerial N° 1870/16. Es un sistema voluntario de acuerdos entre instituciones de Educación Superior de la Argentina, que permite el reconocimiento de trayectos formativos (tramos curriculares, ciclos, prácticas, asignaturas, materias u otras experiencias formativas) para que los estudiantes transiten por el sistema aprovechando toda su diversidad y profundizando la experiencia de formación.
 
-En el marco del SNRA el Ministerio de Educación convocó a especialistas de todo el sistema de educación superior, incluído doncentes de nuestra Licenciatura en Matemática,  para que definan trayectos formativos con el propósito de facilitar la movilidad estudiantil dentro del sistema de ecucación superior nacional. 
+En el marco del SNRA el Ministerio de Educación convocó a especialistas de todo el sistema de educación superior, incluido docentes de nuestra Licenciatura en Matemática,  para que definan trayectos formativos con el propósito de facilitar la movilidad estudiantil dentro del sistema de ecuación superior nacional. 
 
 Fruto de la participación antes aludida nuestra universidad suscribió convenios de reconocimiento de trayectos académicos dentro del área matemática. Este plan de estudio refleja los acuerdos expresados dentro de estos convenios.
 
@@ -286,9 +292,9 @@ Para el diseño de la presente propuesta curricular se tuvo en consideración el
 que estudia perfiles del egresado y escenarios de futuro para el Área de Matemática y la profesión y estrategias de enseñanza, aprendizaje y evaluación de las competencias propias de los profesionales del área. 
 
 \item[Competencias matemáticas para la industria] 
-Es una preocupación permanente en el diseño del plan de estudios de la Licenciatura en Matemática, tanto en esta institución como otras, la inserción del egresado en ámbitos no académicos. Generalmente  en la bibliografía se refiere a estos ámbitos como la ``industria'',  se contempla que estos incluyen organismos públicos, empresas informáticas, etc. Diversas organizaciones se han encargado de identificar aquellas competencias que son requeridas en industrias a profesionales y que pueden ser provistas por egresados del área de las matemáticas y han propuesto estrategias pedagógicas para la consecución de estas competencias. Hemos estudiado los siguientes antecedentes en esta materia.
+Es una preocupación permanente en el diseño del plan de estudios de la Licenciatura en Matemática, tanto en esta institución como otras, la inserción del egresado en ámbitos no académicos. Generalmente  en la bibliografía se refiere a estos ámbitos como la ``industria'' y  se contempla que estos incluyen organismos públicos, empresas informáticas, etc. Diversas organizaciones se han encargado de identificar aquellas competencias que son requeridas en industrias a profesionales y que pueden ser provistas por egresados del área de las matemáticas y han propuesto estrategias pedagógicas para la consecución de estas competencias. Hemos estudiado los siguientes antecedentes en esta materia.
 
-La Society for Industrial and Applied Mathematics (SIAM)  es una asociación académica dedicada al uso de las matemáticas en la industria que tiene conexiones con la Asociación Argentina de Matemática Aplicada Computacional e Industrial. La SIAM publicó varios documentos sobre la problemática del matemático en la industria, en particular \cite{society1996siam,society2012siam}.
+La Society for Industrial and Applied Mathematics (SIAM)  es una asociación académica dedicada al uso de las matemáticas en la industria que tiene conexiones con la Asociación Argentina de Matemática Aplicada Computacional e Industrial (ASAMACI). La SIAM publicó varios documentos sobre la problemática del matemático en la industria, en particular \cite{society1996siam,society2012siam}.
 
 
  La Comisión Internacional de Instrucción Matemática (ICMI) es una comisión de la Unión Internacional de Matemáticas (IMU) y es una organización de actuación internacional centrada en la educación matemática. La ICMI publicó las Educational Interfaces between Mathematics and Industry (ver \cite{damlamian2013educational}) entre otros materiales dirigidos a la temática en cuestión.
@@ -305,7 +311,30 @@ La población destinataria de la carrera es la definida por la Resolución CS-UN
 
 \subsubsection{Rasgos y características de la población estudiantil que atiende: tener en cuenta los destinatarios reales y potenciales de la formación, considerando las condiciones y cualidades sociales, culturales y económicas que la caracterizan en general y según los grupos de procedencia: diversidades culturales, mayores de 25 años sin título secundario, culturas juveniles vigentes y emergentes, personas en situación de discapacidad, adultos mayores, estudiantes de pueblos originarios, de diferentes lugares del país y extranjeros, entre otros.}
 
-\textcolor{red}{Cómo caracterizaríamos nuestros estudiantes? SINTETIZAR  ARCHIVO COMPARTIDO POR MARCELO}
+De acuerdo al Informe de Autoevaluación Institucional de UNRC del
+año 2019\footnote{\href{https://www.unrc.edu.ar/descargar/informe-autoevaluacion.pdf}{https://www.unrc.edu.ar/descargar/informe-autoevaluacion.pdf
+}
+}, en 2017 la población de estudiantes efectivos de UNRC está
+compuesta mayoritariamente por mujeres (más del 60 por ciento) y por
+menores de 25 años (60 por ciento). La gran mayoría (arriba del 80 por
+ciento) provienen de la provincia de Córdoba y en un radio de 100 km
+de la ciudad de Río Cuarto se concentra cerca del 50 por ciento de los
+hogares de origen de los estudiantes, advirtiendo la relevante insercíón
+regional de la UNRC. Un tercio de los estudiantes efectivos trabaja, como
+empleado de comercio mayoritariamente. Un alto porcentaje pertenece
+a los denominados “estudiantes primera generación con estudios superiores” (EPG), dado que el 80 por ciento de los estudiantes pertenecen
+a familias en las cuales ambos padres no han accedido 
+al nivel superior educativo. De este modo la UNRC posibilita la inclusión
+educativa.
+Según los anuarios del “Programa de Estadísticas Académicas Exactas” de la FCEFQyN (PEAE)\footnote{\href{
+https://www.exa.unrc.edu.ar/wp-content/uploads/2021/05/
+anuario-academico-2019.pptx.pdf
+}{https://www.exa.unrc.edu.ar/wp-content/uploads/2021/05/
+anuario-academico-2019.pptx.pdf
+}} entre los años 2017 y 2019, del perfil de
+los estudiantes ingresantes a la FCEFQyN podemos mencionar que en promedio (3 años) un 86 por ciento proviene de la provincia de Coórdoba, el
+27 por ciento trabaja, la mitad proviene de escuelas públicas, y el 75 por
+ciento son EPG. 
 
 \section{Objetivos del proyecto}
 
@@ -314,18 +343,18 @@ Formar un egresado:
 
 \begin{enumerate}
 
- \item Con capacidad crítica y autocrítica,
- \item Respetuoso de los valores democrácticos y de la diversidad cultural,  
-  \item Con un alto conocimiento técnico en la disciplina,
+ \item Con capacidad crítica y autocrítica. 
+ \item Respetuoso de los valores democrácticos y de la diversidad cultural.
+  \item Con un alto conocimiento técnico en la disciplina.
  \item Capacitado en la aplicación de la matemática en la
-resolución de problemas científicos y/o tecnológicos,
-\item Que pueda acceder a carreras de posgrado.
-nacionales y del extranjero, 
-\item Capaz de integrarse en grupos de trabajo interdisciplinarios,
-\item Capaz de plantear y resolver problemas de matemática pura,
-\item Alentar al estudiante para que tome contacto con problemas de
-    investigación en distintos momentos de la carrera por medio de espacios extracurriculares destinados a este fin.
+resolución de problemas científicos y/o tecnológicos.
+\item Que pueda acceder a carreras de posgrado, 
+nacionales y del extranjero.
+\item Capaz de integrarse en grupos de trabajo interdisciplinarios.
+\item Capaz de plantear y resolver problemas de matemática pura.
+
 \end{enumerate}
+
 
 
 
@@ -350,7 +379,7 @@ nacionales y del extranjero,
        
        \item Intervenir  como peritos matemáticos en  organismos públicos o privados  tales como, INDEC,  empresas que realicen desarrollos tecnológicos, bancos,   compañías de seguro, etc.
        
-        \item Acceder a carreras de posgrado.
+        \item Acceder a carreras de posgrado y a becas para realizar estudios de posgrado.
        
        \item Participar de los equipos docentes dirigidos a la
          enseñanza de la matemática en los niveles superiores de enseñanza.
@@ -360,43 +389,43 @@ nacionales y del extranjero,
     \end{enumerate}
 
 \subsection{Actividades profesionales reservadas al título (Incumbencias)}
+
+\textcolor{green}{CONSULTAR}
     
 \subsection{Perfil del Título}
  
 
 
-\subsubsection{Conocimientos que constituyen el fundamento teórico-metodológico de su accionar profesional o académico.}
+\subsubsection{Conocimientos que constituyen el fundamento teórico-meto- dológico de su accionar profesional o académico.}
 
 Se aspira a que el Lic. en Matemática adquiera un conocimiento sólido en las siguientes  áreas de
- la matemática: Análisis Matemático, Funciones de una Variable Compleja,   Teoría de la Medida, Probabilidades. Estadística. Ciencia de Datos, Geometría Diferencial, Álgebra Lineal, Estructuras Algebracicas, Ecuaciones Diferenciales ordinarias y parciales, Cálculo Numérico, Análisis Funcional.
+ la matemática: Análisis Matemático, Funciones de una Variable Compleja,   Teoría de la Medida, Probabilidades,  Estadística,  Ciencia de Datos, Geometría Diferencial, Álgebra Lineal, Estructuras Algebracicas, Ecuaciones Diferenciales ordinarias y parciales, Cálculo Numérico y Análisis Funcional.
  
- Se pretende además que el estudiante adquiera conceptos básicos de programación, mecánica y en una materia proveniente de otra ciencia, por ejemplo biología, economía, química, física, ingeniería, informática. Para esto último se prevé una  materia electiva. 
+ Se pretende además que el estudiante adquiera conceptos básicos de programación, mecánica y en alguna materia de otra ciencia, por ejemplo biología, economía, química, física, ingeniería, informática. Para esto último se prevé una  asignatura electiva. 
 
- Se aspira además a que el estudiante logre una formación complementaria en un área de su elección dentro de la oferta de que disponga como parte de su ciclo de especialización.
+ Por otro lado, se  aspira a que el estudiante logre una formación complementaria en un área de su elección dentro de la oferta de que disponga como parte de su ciclo de especialización.
  
-\subsubsection{Capacidades y habilidades requeridas para la realización de las actividades que le incumben.}
+\subsubsection{Capacidades y habilidades requeridas para la realización de las actividades que le incumben.}\label{subsec:competencias}
 
 
 Se espera lograr un profesional capacitado para:
 \begin{enumerate}
 
 \item { Actuar con responsabilidad social y compromiso
-ciudadano,} 
+ciudadano}.
 
-
-
-\item {Aprender, actualizarse y trabajar de manera autónoma,} 
+\item {Aprender, actualizarse y trabajar de manera autónoma}. 
  
 
 
-\item {Realizar análisis  críticos y autocríticos,} 
+\item {Realizar análisis  críticos y autocríticos}. 
  
-\item {Plantear y resolver problemas de matemática pura,} 
+\item {Plantear y resolver problemas de matemática pura}. 
 
-\item{Idear demostraciones,}
+\item{Idear demostraciones}.
 
 \item {Valorar y respetar  la diversidad
-y la multiculturalidad,} 
+y la multiculturalidad}. 
  
 
 
@@ -406,14 +435,14 @@ y la multiculturalidad,}
 
 \item {Construir y desarrollar
 argumentaciones lógicas con una
-identificación clara de hipótesis y conclusiones,} 
+identificación clara de hipótesis y conclusiones}. 
  
-\item {La abstracción (extraer de una situación los rasgos más relevantes),} 
+\item {La abstracción (extraer de una situación los rasgos más relevantes)}. 
  
 
 
 \item {Formular problemas
-en lenguaje matemático,} 
+en lenguaje matemático}. 
  
 
   
@@ -430,7 +459,7 @@ matemáticas bajo orientación de experto,}
 
 \item {Contribuir en la
 construcción de modelos matemáticos a
-partir de situaciones reales,} 
+partir de situaciones reales}. 
  
 
 
@@ -452,17 +481,17 @@ matemática,}
 
 
 \item {Comunicarse
-con otros profesionales no matemáticos,} 
+con otros profesionales no matemáticos}. 
 
  
 
-\item {Actuar en contextos educativos y planificar actividades de enseñanza,} 
+\item {Actuar en contextos educativos y planificar actividades de enseñanza}. 
  
 
 
 \item {Leer, escribir y exponer documentos en
 inglés, así como comunicarse con otros
-especialistas,} 
+especialistas}. 
 
  
 
@@ -487,7 +516,7 @@ Los fijados por el ``Régimen  de estudiantes y de enseñanza de pregrado y grad
 un ciclo básico común con el profesorado, un ciclo superior y un
 ciclo de especialización.
 
-\paragraph{Ciclo Básico} El ciclo básico incluye 11 asignaturas.
+\paragraph{Ciclo Básico} El ciclo básico incluye 14 asignaturas.
 
 \setlength\arrayrulewidth{1pt}
 \begin{center}
@@ -499,23 +528,33 @@ ciclo de especialización.
   \rowcolor[gray]{.9}
   \emph{Asignaturas del ciclo básico} & Código  & \emph{Horas semanales} &  \emph{Horas totales}
   \\\hline
-  Cálculo I                          &   1921   &           8   &   112          \\ \hline
-  Matemática Discreta       	     &   1925   &           8   &   112          \\ \hline
+  Introducción al Cálculo                      &   COD1 \footnote{Código identificador para este documento hasta tanto se le asigne un código desde la FCEFQyN}   &           8   &   112          \\ \hline
+  Fundamentos del Álgebra    	     &   1904   &           8   &   112          \\ \hline
   Geometría I               	     &   1935   &           6   &    84          \\ \hline
-  Cálculo II                         &   1928   &           8   &   112          \\ \hline
-  Álgebra Lineal I                   &   1933   &           8   &   112          \\ \hline
+  Análisis Matemático I &   COD2   &           8   &   112          \\ \hline
+ 
+
+ 
+ Álgebra Lineal I                   &   1933   &           8   &   112          \\ \hline
+
+    Geometría Analítica                   &   COD3   &       6       &   84          \\ \hline
+ 
+ Análisis Matemático II &   COD4   &           8   &   112          \\ \hline
+  
   Taller de informática              &   1927   &           6   &    84          \\ \hline
-  Cálculo III                        &   1929   &           8   &   112          \\ \hline
+  
+  Inglés      & 1976 &  4   & 112 \\ \hline
   Probabilidades                     &   1987   &           8   &   112          \\ \hline
   Estructuras Algebraicas            &   1993   &           8   &   112          \\ \hline
    Estadística                        &   1991   &           6   &    84          \\ \hline
   Física                             &   1930   &           6   &    84          \\ \hline
-  \emph{Total de horas ciclo básico }& \multicolumn{3}{r|}{\emph{1136}}            \\ \hline
+  Sociología de la Educación & 2064 & 4 & 56 \\ \hline
+  \emph{Total de horas ciclo básico }& \multicolumn{3}{r|} {\emph{1372}}            \\ \hline
 \end{tabularx}
 \end{center}
 
 
-\paragraph{Ciclo Superior} Consta de 13 materias
+\paragraph{Ciclo Superior} Consta de 12 materias
 obligatorias.
 
 \begin{center}
@@ -526,21 +565,20 @@ obligatorias.
 \hline
   \rowcolor[gray]{.9}
 \emph{Asignaturas del ciclo superior  }  & Código &\emph{Horas semanales} &  \emph{Horas totales}\\ \hline
-Inglés  (Anual)                            & 1976   &           4        &     112          \\ \hline
-Estudio de la Realidad Nacional          & 6235   &           2        &      28           \\ \hline
+
 Cálculo Numérico  Computacional          & 2030   &           8        &     112           \\ \hline
 Topología                                & 1917   &           8        &     112           \\ \hline
 Álgebra Lineal Aplicada                  & 2261   &           8        &     112           \\ \hline
-Fundamentos de Análisis           &   xxxx &             8        &             112    \\ \hline
+Fundamentos de Análisis           &   COD5 &             8        &             112    \\ \hline
 Variables Complejas   & 1911   &           8        &     112           \\ \hline
-Medida e Integración                     & 2263   &           8        &     140           \\ \hline
+Medida e Integración                     & 2263   &           10        &     140           \\ \hline
 Ecuaciones Diferenciales                 & 1913   &           8        &     112           \\ \hline
 Geometría Diferencial                    & 1915   &           8        &     112           \\ \hline
-Modelos de regresión y metodos empíricos  & XXXX  &           6 
-& 90   \\ \hline
+Modelos de regresión y metodos empíricos  & COD6  &           6 
+& 84  \\ \hline
 Introducción a las Ecuaciones en Derivadas Parciales &   2212  & 8 & 112  \\ \hline
-Análisis Funcional               &    1916   &       8        &            112      \\ \hline
-\emph{Total de horas ciclo superior }    &\multicolumn{3}{r|}{\emph{1322 }}                    \\ \hline
+Análisis Funcional               &    1916   &       10        &            140      \\ \hline
+\emph{Total de horas ciclo superior }    &\multicolumn{3}{r|}{\emph {1260}   }               \\ \hline
 
 \end{tabularx}
 \end{center}
@@ -550,7 +588,7 @@ Análisis Funcional               &    1916   &       8        &            112 
 \paragraph{Ciclo de Especialización} Dirigido a introducir al alumno
 en la investigación en una rama específica de la matemática de su elección o a introducirlo en las aplicación de la matemática a un problema de modelización o aplicación de la matemática a un problema de origen tecnológico, social, productivo, etc. 
 
-Consta de dos asignaturas optativas una electiva y contempla la realización de un trabajo final. La realización del trabajo final está regulado por la Res. CD. FCEFQyN N0 208/91 o aquella que la suplante.    
+Consta de dos asignaturas optativas una electiva y contempla la realización de un trabajo final. La realización del trabajo final está regulado por la Res. CD. FCEFQyN N0 208/91.    
 
 \begin{center}
 \begin{tabularx}{1\textwidth}{|>{\raggedleft\arraybackslash}X |
@@ -577,7 +615,7 @@ Optativa I                     &           &            8        &         112  
 
 \begin{tabularx}{1\textwidth}{|>{\raggedleft\arraybackslash}X |
 >{\raggedleft\arraybackslash}X |
->{\raggedleft\arraybackslash}X |
+>{\raggedright\arraybackslash} p{5cm}|
 >{\raggedleft\arraybackslash}X |
 >{\raggedleft\arraybackslash}X |}
 \hline
@@ -586,22 +624,25 @@ Optativa I                     &           &            8        &         112  
 
 \emph{Cuat. }  &\emph{Código}  & \emph{Materia}                              &    hr. sem.       &  hr. Tot.        \\ \hline
 
-I              & 1921          & Cálculo I                                &          8  &   112     \\ \hline
-I              & 1925          & Matemática Discreta                      &          8  &   112       \\ \hline
+I              & COD1\footnote{Código identificador para este documento hasta tanto se le asigne un código desde la FCEFQyN}           & Introducción al Cálculo                               &          8  &   112     \\ \hline
+I              &  1904        &  Fundamentos de Álgebra                      &          8  &   112       \\ \hline
 I              & 1935          & Geometría I                              &          6  &    84       \\ \hline
 \multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre I}}              &\textbf{22 } &\textbf{308 }\\ \hline
-II             & 1928          & Cálculo II                               &          8  &   112       \\ \hline
+II             & COD2          & Análisis Matemático I                              &          8  &   112       \\ \hline
 II             & 1933          & Álgebra Lineal I                         &          8  &   112       \\ \hline
-II             & 1927          & Taller de informática                    &          6  &    84       \\ \hline
+II             & COD3         & Geometría Analítica                    &          6  &    84       \\ \hline
+
 \multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre II}}             &\textbf{22 } &\textbf{308 }\\ \hline
  
 \rowcolor[gray]{.9}
 \multicolumn{5}{|c|}{\textbf{Segundo año}}                                                                \\ \hline
-III            & 1929          & Cálculo III                              &          8  &   112      \\ \hline
-III            & 2030          & Cálculo Numérico  Computacional          &          8  &   112    \\ \hline
+III            & COD4         & Análisis Matemático II                           &          8  &   112      \\ \hline
+III             & 1927          & Taller de informática                    &          6  &    84       \\ \hline
 III            & 1976          & Inglés (Anual)                           &          4  &    56     \\ \hline
-III            & 2064          & Sociología de la Educación                           &          4  &    56     \\ \hline
-\multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre III}}            & \textbf{24 }&\textbf{336 }\\ \hline
+III             & 2261          & Álgebra Lineal Aplicada                  &          8  &   112       \\ \hline
+
+
+\multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre III}}            & \textbf{26 }&\textbf{364 }\\ \hline
 IV             & 1987          & Probabilidades                           &          8  &   112      \\ \hline
 IV             & 1993          & Estructuras Algebraicas                  &          8  &   112      \\ \hline
 IV    &  1976 & Inglés (Anual) & 4  & 56 \\ \hline
@@ -609,22 +650,25 @@ IV    &  1976 & Inglés (Anual) & 4  & 56 \\ \hline
 
 \rowcolor[gray]{.9}\multicolumn{5}{|c|}{\textbf{Tercer año}}                                                        \\ \hline
 V              & 1991          & Estadística                                &           6         &         84         \\ \hline
-V              & XXXX          & Fundamentos de Análisis           &            8        &             112     \\ \hline
-V             & 2261          & Álgebra Lineal Aplicada                  &          8  &   112       \\ \hline
+V              & COD5         & Fundamentos de Análisis           &            8        &             112     \\ \hline
+
+
+V            & 2030          & Cálculo Numérico  Computacional          &          8  &   112    \\ \hline
 
 \multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre V}}                &\textbf{22}           &\textbf{308}         \\ \hline
 VI             & 1930          & Física                                     &            6        &           84       \\ \hline
 VI             & 1911          & Variables Complejas                          &             8       &         112         \\ \hline
-VI             & 6235          & Estudio de la Realidad Nacional *          &               2     &         28         \\ \hline
+%VI             & 6235          & Estudio de la Realidad Nacional           &               2 %    &         28         \\ \hline
 VI            & 1917          & Topología                                   &              8      &        112          \\ \hline
-\multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre VI} }              &\textbf{24}           &\textbf{336}         \\ \hline
+\multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre VI} }              &\textbf{22}           &\textbf{308}         \\ \hline
   
 \rowcolor[gray]{.9}\multicolumn{5}{|c|}{\textbf{Cuarto año}}                                                        \\ \hline
 VII           & 2263          & Medida e Integración                       &             10       &            140     \\ \hline
 VII            & 1913          & Ecuaciones Diferenciales                   &           8         &        112          \\ \hline
-\multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre VII}}              & \textbf{18}          &\textbf{252}         \\ \hline
+VII           & 2064          & Sociología de la Educación                           &          4  &    56     \\ \hline
+\multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre VII}}              & \textbf{22}          &\textbf{308}         \\ \hline
 VIII             & 1915          & Geometría Diferencial                      &              8     &        112          \\ \hline
-VIII           & xxx           & Modelos de regresión y metodos empíricos                  &              6      &         84         \\ \hline
+VIII           & COD6           & Modelos de regresión y metodos empíricos                  &              6      &         84         \\ \hline
 
 % VIII           & 2265          & Modelos Matemáticos                        &               6     &       84           \\ \hline
 
@@ -633,7 +677,7 @@ VIII          & 2212           & Introducción a las Ecuaciones en Derivadas Par
 \multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre VIII}}             & \textbf{22}          &\textbf{308}         \\ \hline
 
 \rowcolor[gray]{.9}\multicolumn{5}{|c|}{\textbf{Quinto año}}                                                        \\ \hline
-IX            &  1916         &  Análisis Funcional               &           10         &            140     \\ \hline
+IX            &  1916         &  Análisis Funcional               &          10          &            140      \\ \hline
 IX           &               & Optativa I                                &            8        &         112        \\ \hline
 X           &           & Electiva                             &    6                &        84          \\ \hline
 \multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre VII}}              & \textbf{24}          &\textbf{336}         \\ \hline
@@ -642,11 +686,10 @@ X           & 2265          & Trabajo Final                              &      
 
 
 \multicolumn{3}{|l|}{\textbf{Total de Horas cuatrimestre VIII}}             & \textbf{20}          &\textbf{280}         \\ \hline
-\multicolumn{4}{|l|}{\textbf{Total de Horas del Plan de estudios}}                               &\textbf{}         \\ \hline
+\multicolumn{4}{|l|}{\textbf{Total de Horas del Plan de estudios}}                               &\textbf{3108}         \\ \hline
 \end{tabularx}
 \end{center}
 \normalsize
-
 
 
 \subsubsection{Contenidos y metodología}
@@ -655,83 +698,76 @@ X           & 2265          & Trabajo Final                              &      
 
 \begin{enumerate}
 
-\item \textbf{Cálculo I (1921):} Números Reales. Funciones
-trascendentes. Operaciones con funciones. Límite. Continuidad.
-Derivadas. Aplicaciones de la Derivada: máximos, mínimos, trazado
-de curvas. Teorema del valor medio: Aplicaciones.
+\item \textbf{Introducción al Cálculo  (COD1):} Números Reales. Expresiones decimales de los números reales. Sucesiones. Series. Límites de sucesiones.  La modelización algebraica funcional. Función. Definición. Distintas representaciones: Limitaciones y potencialidades. Clasificación.Funciones elementales, polinómicas y trascendentes. Operaciones. Composición. Inversa. Clasificación.  Continuidad y límites de funciones. Propiedades de las funciones continuas sobre intervalos cerrados y acotados. 
 
-Bibliografía Principal: \cite{PeterD.Lax631}.
+Bibliografía: \cite{PeterD.Lax631,MichaelSpivak649,thomas2005calculo}
+ 
 
-Bibliografía Consulta: \cite{MichaelSpivak649}
-
-Bibliografía orientada por la historia: \cite{ErnstHairer633,DavidApplebaum639,OttoToeplitz642,DavidBressoud643,DavidM.Bressoud651,DavidM.Bressoud688}.
+Bibliografía orientada según la historia: \cite{ErnstHairer633,DavidApplebaum639,OttoToeplitz642,DavidBressoud643,DavidM.Bressoud651,DavidM.Bressoud688}.
 
 
  
-\item \textbf{Matemática discreta (1925):} Introducción a la lógica. Números
-naturales. Principio de inducción. Introducción a la combinatoria.
-Números enteros: Divi\-sibilidad, Teorema fundamental de la
-Aritmética, Congruencia,  Ecuaciones Diofánticas, Teorema de
-Fermat y Euler. Relaciones y funciones: funciones inyectivas,
-suprayectivas, relaciones de orden y de equivalencia.
+\item \textbf{Fundamentos de Álgebra (1904):}
+Elementos de la teoría de conjuntos para la formalización de conceptos matemáticos. Relaciones, operaciones, funciones, propiedades. Relaciones de orden. Relación de equivalencia. Conjunto cociente. El Principio de Inducción Matemática como método de demostración. Presentación axiomática de los números naturales. Estructura multiplicativa de los números enteros. Divisibilidad. Algoritmo de la división entera. Teorema fundamental de la aritmética. MCD y MCM. Congruencia.  Construcción axiomática de los enteros.
 
-Bibliografía Principal: \cite{gentile, grimaldi}.
+
+Bibliografía : \cite{gentile, grimaldi}.
 
 
 
 
-\item \textbf{Geometría I (1935):} Triángulos: medianas, mediatrices, centroides. Inscriptos y
-circunscriptos. Ortocentro. Polígonos: simetrías. Isometrías del
-plano euclídeo. Geometría afín: ecuaciones de rectas  en
-el plano y de rectas y planos en el espacio. Espacios vectoriales generales.
-Transformaciones lineales: rotaciones, reflexiones, simetrías.
-Cónicas y cuádricas.
-Bibliografía Principal: \cite{AllanBerele41,RogerFenn248,RobinHartshorne131,AlfredS.Posamentier49}.
+\item \textbf{Geometría I (1935):} Axiomas de Euclides. Congruencia de Triángulos. Cuadriláteros, polígonos, propiedades. Teorema de Thales. Semejanza de triángulos. Circunferencia, propiedades. Elementos notables en el triángulo, propiedades. Posiciones relativas de circunferencias y rectas en el plano. Inversión respecto a una circunferencia. Área de figuras.  Cuerpos, propiedades. Volumen.  Las presentaciones axiomático-deductivas de la geometría, estatus, potencialidades, limitaciones. Articulación geometría sintética-geometría analítica.
+
+Bibliografía : \cite{AllanBerele41,RogerFenn248,RobinHartshorne131,AlfredS.Posamentier49}.
 
 Bibliografía de Consulta: \cite{O.Bottema149,CharlesStanleyOgilvy129,AllanBerele41,GerardA.Venema145,H.S.M.Coxeter226,H.S.M.Coxeter35,MatthewHarvey261,RogerA.Johnson42,coxeter,GJE,villamayor}.
 
 
 
 
-\item \textbf{Cálculo II (1928):}   Integral definida de una variable real: áreas, volúmenes,
-longitudes, etc. Métodos de integración, integrales impropias.
-Sucesiones y series numéricas. Series de potencias. Series de
-Taylor. Introducción a las  ecuaciones diferenciales de primer
-orden.
+\item \textbf{Análisis Matemático I (COD2):}   Derivadas.  Problemas que le dan sentido: de la recta tangente, de la velocidad. Otras razones de cambio. Aplicaciones de la Derivada. Teorema del valor medio. Integral definida en una variable.  Problemas que le dan sentido:  del área, de la distancia.Teorema fundamental del cálculo. Aplicaciones de la Integral. Métodos de Integración. Integrales impropias. Series numéricas. Series de potencia. Series y polinomios  de Taylor.  Introducción a las ecuaciones diferenciales de primer orden .
+
+Bibliografía: \cite{PeterD.Lax631,MichaelSpivak649,thomas2005calculo,GeorgeFinlaySimmons487,thomas2005calculo}.
+ 
+
+Bibliografía Consulta: \cite{ErnstHairer633,DavidApplebaum639,OttoToeplitz642,DavidBressoud643,DavidM.Bressoud651,DavidM.Bressoud688}.
 
 
-Bibliografía Principal: \cite{PeterD.Lax631,GeorgeFinlaySimmons487}.
+\item \textbf{Álgebra Lineal I (1933):} Espacios vectoriales. Transformaciones
+lineales y matrices. Teorema de la dimensión. Rango de una matriz.
+Espacio dual. Espacio euclídeo. Bases ortonormales. Números complejos. Polinomios.
+Autovalores y autovectores. Diagonalización.
 
-Bibliografía Consulta: \cite{MichaelSpivak649,ErnstHairer633,DavidApplebaum639,OttoToeplitz642,DavidBressoud643,DavidM.Bressoud651,DavidM.Bressoud688}.
+Bibliografía: \cite{hoffman, strang}.
+
+
+\item \textbf{Geometría Analítica (COD3):} 
+Vectores. Producto escalar y vectorial. Ecuaciones de la recta y el plano. Posiciones relativas de rectas y planos en el espacio. Ángulos y distancias entre rectas y planos. Resolución de problemas de geometría euclidiana con herramientas de la geometría analítica. Transformaciones rígidas. Homotecias. Transformaciones afines. Cónicas. Ecuación general de segundo grado y su reducción por transformaciones rígidas o afines. Reflexión respecto de elipses y parábolas. Cuádricas.
 
 
 
+Bibliografía: \cite{H.S.M.Coxeter226,DavidABrannan247,MicheleAudin38,RogerFenn248,VagnLundsgaardHansen85,C.G.Gibson97,GeorgeA.Jennings273,ArsenyV.Akopyan95,IlkaAgricola77}
+
+
+\item \textbf{Análisis Matemático II (COD4):} Funciones vectoriales. Derivadas. Longitud de
+arco. Funciones de varias variables. Derivadas parciales. Regla de
+la cadena. Derivadas direccionales. Extremos y extremos
+condicionales. Integración múltiple. Análisis vectorial.
+Integrales de línea y de superficie. Teoremas de Green, Gauss y
+Stokes.
+
+Bibliografía: \cite{ marsdentromba,MarianoGiaquinta641,ErnstHairer633,PeterD.Lax632,thomas2006c}.
 
 
 \item \textbf{Taller de Informática (1927).} Noción de algoritmo. Su formulación en pseudocódigos. Estructuras de datos y de control. Implementación
 en lenguaje computacional.
 
-Bibliografía sugerida: \cite{Seroul:2000,Rose:2015}.
+Bibliografía: \cite{Seroul:2000,Rose:2015}.
 
 
 
 
-\item \textbf{Álgebra Lineal I (1933):} Espacios vectoriales. Transformaciones
-lineales y matrices. Teorema de la dimensión. Rango de una matriz.
-Espacio dual. Espacio euclídeo. Bases ortonormales. Polinomios.
-Autovalores y autovectores. Dia\-gonalización.
 
-Bibliografía sugerida: \cite{hoffman, strang}.
-
-
-\item \textbf{Cálculo III (1929):} Funciones vectoriales. Derivadas. Longitud de
-arco. Funciones de varias variables. Derivadas parciales. Regla de
-la cadena. Derivadas direccionales. Extremos y extremos
-condicionales. Integración múltiple. Aná\-lisis vectorial.
-Integrales de línea y de superficie. Teoremas de Green, Gauss y
-Stokes.
-
-Bibliografía sugerida: \cite{ marsdentromba,MarianoGiaquinta641,ErnstHairer633,PeterD.Lax632}.
 
 
 
@@ -748,12 +784,20 @@ sintético, morfológico y semántico) y funciones del lenguaje
 (descripción, definición, clasificación, etc.).
 
 
+\item\textbf{Álgebra Lineal Aplicada (2261):}  Normas matriciales.
+Método de Gram-Schmidt. Descomposición QR.
+Matrices unitarias y ortogonales. Reducción ortogonal.
+Descomposición SVD. Diagonalización. Matrices normales y simétricas. Matrices
+definidas positivas. Matrices nilpotentes y formas de Jordan.
+
+ Bibliografía: \cite{golub,hoffman,meyer, strang}
+
 
 \item \textbf{Probabilidades (1987):} Espacios de probabilidad.  Probabilidad
 condicional e independencia.  Variables aleatorias y sus distribuciones.  Vectores aleatorios y transformaciones.  Dependencia y distribuciones condicionales. Función generatriz de momentos y sus aplicaciones. Convergencia de variables aleatorias. Ley débil y ley fuerte de
 los grandes números. Teorema Central del Límite. 
 
-Bibliografía sugerida: \cite{berts, parzen, ross, grimmet}. 
+Bibliografía: \cite{berts, parzen, ross, grimmet}. 
 
 \item \textbf{Estructuras Algebraicas  (1993):} Grupos. Grupos cíclicos y
 simétrico. Acción de un grupo en un conjunto. Teoremas de Sylow.
@@ -761,27 +805,31 @@ Anillo. Dominios Euclidianos, Principales y de Factorización
 única. Módulo. Módulos: Finitamente Generados, Libres.
 Divisibilidad.
 
-Bibliografía sugerida: \cite{ gentile,herstein, lang}.
+Bibliografía: \cite{ gentile,herstein, lang}.
 
 
-
-\item\textbf{Álgebra Lineal Aplicada (2261):}  Normas matriciales.
-Método de Gram-Schmidt. Descomposición QR.
-Matrices unitarias y ortogonales. Reducción ortogonal.
-Descomposición SVD. Diagonalización. Matrices normales y simétricas. Matrices
-definidas positivas. Matrices nilpotentes y formas de Jordan.
-
- Bibliografía sugerida: \cite{golub,hoffman,meyer, strang}
 
 
  \item \textbf{Estadística (1991):} Estadística Descriptiva. Distribuciones de muestreo. Estimación Puntual. Intervalos y Regiones de Confianza. Pruebas de Hipótesis. Pruebas de $\chi$-Cuadrado. Modelos de regresión lineal. Métodos empíricos. 
 
-Bibliografía sugerida: \cite{wasserman, devore, witten, boente, mosche}
+Bibliografía: \cite{wasserman, devore, witten, boente, mosche}
  
-\item \textbf{Fundamentos de análisis:} Cardinalidad. Espacios métricos. Completitud. Conexión. Compacidad. Convergencia uniforme. $M$-test Weiertrass. Series de potencias y de Fourier. Convergencia uniforme y su relación con la continuidad, la  derivada y la  integral. Teorema punto fijo de Banach. Aplicación: Teorema de Existencia y Unicidad de soluciones ecuaciones diferenciales ordinarias.  
-Bibliografía sugerida: \cite{RogerGodement658,StephenAbbott134,Simmons671,MichealOSearcoid674,SatishShirali675,VictorBryant676,J.Dieudonne678,WalterRudin681,NikolaosKatzourakis684,VilmosKomornik685,VicenteMontesinos686}
+\item \textbf{Fundamentos de Análisis:} Cardinalidad. Espacios métricos. Completitud. Conexión. Compacidad. Convergencia uniforme. $M$-test  Weiertrass. Series de potencias y de Fourier. Convergencia uniforme y su relación con la continuidad, la  derivada y la  integral. Teorema punto fijo de Banach. Aplicación: Teorema de Existencia y Unicidad de soluciones ecuaciones diferenciales ordinarias. 
+
+Bibliografía: \cite{RogerGodement658,StephenAbbott134,Simmons671,MichealOSearcoid674,SatishShirali675,VictorBryant676,J.Dieudonne678,WalterRudin681,NikolaosKatzourakis684,VilmosKomornik685,VicenteMontesinos686}
 
 
+
+
+
+\item\textbf{Cálculo Numérico Computacional (2030):} Sistemas de Numeración.
+Teoría de errores. Solución de ecuaciones lineales y no-lineales.
+Aproximación e Interpolación de funciones. Integración numérica.
+Producto escalar discreto y continuo. Polinomios ortogonales y
+cuadrados mínimos. Implementación de los algoritmos numéricos en
+un lenguaje computacional. Solución numérica de ecuaciones diferenciales ordinarias.
+
+Bibliografía: \cite{burden, cheney}.
 
 
 
@@ -800,7 +848,7 @@ Potencia. Cinemática y  dinámica del cuerpo rígido. Momento de
 inercia. Teorema de Steiner. Sistemas no inerciales. Teoría de
 errores.
 
-Bibliografía sugerida: \cite{roederer, sears}.
+Bibliografía: \cite{roederer, sears}.
 
 
 \item\textbf{Variables Complejas:}
@@ -808,34 +856,7 @@ Funciones analíticas. Desarrollos en serie de potencias. Fórmula
 y teorema de Cauchy. Singularidades. Series de Laurent. Cálculo de
 residuos. Teorema del módulo máximo. Mapeo conforme. Aplicaciones a problemas de Dirichlet y Poisson.
 
-Bibliografía sugerida: \cite{ahlfors, churchill,conway}
-
-
-
-\item\textbf{Estudio de la Realidad Nacional (6235):} Derechos y garantías constitucionales. Protección de los derechos humanos. Instituciones políticas.
-El estado. Organización jurídica-política de la Repúiblica Argentina. Partidos políticos y sistemas de
-mediación, representación y participación. La democracia. La sociedad. Estructura. Problemas. El
-sistema económico. La educación. Universidad. Ética profesional.
-\textcolor{green}{Preguntar si es posible reemplazar este espacio por participaciones en organismos colegiados, centros de estudiantes, etc}
-
-
-\item\textbf{Geometría Diferencial (1915):} Geometría de curvas y superficies.
- Geometría Riemanniana
-intrínseca. El Teorema de Gauss Bonnet. Variedades diferenciales $k$-dimensionales.
-Bibliografía Sugerida: \cite{docarmo,morgan,oneill}
-\hyphenation{de-fi-ni-das}
-
-
-
-
-\item\textbf{Cálculo Numérico Computacional (2030):} Sistemas de Numeración.
-Teoría de errores. Solución de ecuaciones lineales y no-lineales.
-Aproximación e Interpolación de funciones. Integración numérica.
-Producto escalar discreto y continuo. Polinomios ortogonales y
-cuadrados mínimos. Implementación de los algoritmos numéricos en
-un lenguaje computacional.
-
-Bibliografía sugerida: \cite{burden, cheney}.
+Bibliografía: \cite{ahlfors, churchill,conway}
 
 
 
@@ -844,18 +865,8 @@ y cociente. Axiomas de separación. Metrización.
 Conjuntos compactos y conexos. Espacios de funciones Teorema de Arzela-Ascoli. Teorema de Weiertrass. 
  Topología Algebraica. Homotopía.
 
-Bibliografía Sugerida: \cite{dugundji, kelley,
+Bibliografía: \cite{dugundji, kelley,
 munkres, morris1989topology,  JohnMcCleary84,StefanWaldmann87,JohnB.Conway251, RobertAConover507}.
-
-\item\textbf{Ecuaciones Diferenciales (1913):} Herramientas computacionales.  Ecuaciones lineales de orden $n$. Teoremas de separación y comparación de Sturm. Método de Frobenius. . Problemas de Sturm-Liouville. Funciones especiales de la Física-Matemática.  Sistemas lineales. 
-
-Bibliografía Sugerida: \cite{ GeorgeFinlaySimmons487,WilliamE.Boyce496, MorrisW.Hirsch540,JorgeSotomayor513,BarbaraD.MacCluer515,RichardS.Palais519,GarrettBirkhoff526}
-
-
-\item\textbf{Introducción a las Ecuaciones en Derivadas Parciales (2212):}  Ecuaciones de la Física-Matemática. Ecuaciones de primer orden. Método de características. Ecuación de Laplace. Teorema del valor medio. Teorema del máximo. Desigualdad de Harnack. Ecuación del Calor. Nucleo del calor. Operadores de convolución.  Método de Fourier.    Ecuación de ondas. Método de características. Leyes de conservación. Formula de D'{}Alembert. Medias esféricas. 
-
-Bibliografía sugerida: \cite{LawrenceC.Evans271,WalterCraig494,AlexanderKomech496,JulianFernandezBonder511,DavidBorthwick689,FritzJohn692,SandroSalsa693,AndrasVasy695,YehudaPinchover697,PavelDrabek698, AslakTveito699}.
-
 
 
 \item\textbf{Medida e Integración (2263):}  Medida de Lebesgue. Funciones medibles.
@@ -865,18 +876,57 @@ Teorema de Fubini. Espacios de Banach y de Hilbert. Espacios
 $L^p$. Espacio  $L^2$. Bases ortonormales. Series de Fourier.
 Funciones de variación acotadas y absolutamente continuas. Medidas abstractas. 
 
-Bibliografía sugerida: \cite{favazo, loeve, rudin, EliasM.Stein105,TerenceTao123,A.N.Kolmogorov682,DavidM.Bressoud121,wheeden2015measure}.
+Bibliografía: \cite{favazo, loeve, rudin, EliasM.Stein105,TerenceTao123,A.N.Kolmogorov682,DavidM.Bressoud121,wheeden2015measure}.
 
+
+\item\textbf{Ecuaciones Diferenciales (1913):} Herramientas computacionales.  Ecuaciones lineales de orden $n$. Teoremas de separación y comparación de Sturm. Método de Frobenius. . Problemas de Sturm-Liouville. Funciones especiales de la Física-Matemática.  Sistemas lineales. 
+
+Bibliografía: \cite{ GeorgeFinlaySimmons487,WilliamE.Boyce496, MorrisW.Hirsch540,JorgeSotomayor513,BarbaraD.MacCluer515,RichardS.Palais519,GarrettBirkhoff526}
+
+
+
+\item\textbf{Sociología de la educación (2064):}  Observación, análisis y fundamentación de las relaciones concretas entre la educación formal, las demandas sociales y las decisiones del poder en la sociedad argentina actual y su contexto. Las dimensiones socio-político-económico-culturales determinantes de los procesos y las relaciones en el aula, la institución escolar y el sistema educativo. Análisis de los problemas más relevantes que presenta la educación argentina desde esta perspectiva, su articulación con las demandas sociales populares y las limitaciones desde la hegemonía. Reflexión prospectiva. \textcolor{green}{SACADOS DEL PLAN DEL PROFESORADO 2004, HAY QUE VER SI ES ACTUAL}
+
+
+
+
+
+
+
+\item\textbf{Geometría Diferencial (1915):} Geometría de curvas y superficies.
+ Geometría Riemanniana
+intrínseca. El Teorema de Gauss Bonnet. Variedades diferenciales $k$-dimensionales.
+Bibliografía: \cite{docarmo,morgan,oneill}
+\hyphenation{de-fi-ni-das}
 
 
 \item\textbf{Modelos de regresión y metodos empíricos}
 
  Técnicas de remuestreo. Métodos de regresión en alta dimensión. Ridge, Lasso, Elastic net. Grouped Lasso. Ensambles. Componentes principales para regresión. Selección de Variables. Modelos Aditivos. Métodos basados en Árboles. Árboles para regresión y clasificación. Datos Faltantes. Boosting
 
+
+\item\textbf{Introducción a las Ecuaciones en Derivadas Parciales (2212):}  
+
+
+Principios de la mecánica del continuo. Teorema del transporte de Reynolds. Ecuación del balance de masas. Ley del balance de energía. Ley de conducción de Fourier. Ecuaciones de Navier-Stokes. Ecuación del calor.   Ecuación del transporte lineal. Método de las características. Ondas viajeras. Ecuación del transporte no-lineal, homogénea y no-homogénea. Ondas de choque. Deducción de la ecuación de movimiento de una membrana plana. Ecuación de ondas. Solución del problema de Cauchy en la recta por el método de características.  Fórmula de d'{}Alembert. Solución en una semirecta. Extremos fijos y libres. Problema de Cauchy en un intervalo acotado. Método de Fourier.  Medias esféricas. Problemas de Sturm-Liouville. Funciones de Bessel y Legendre. Armónicos esféricos. Método de Fourier para una membrana vibrante circular. Ecuación de Schr\"odinger para el átomo de hidrógeno. Transformada de Fourier. Solución del problema de Cauchy para la ecuación de ondas por medio de la transformada de Fourier.  Solución fundamental de la ecuación del Calor.  Solución ecuación del calor en dominios circulares por el método de Fourier. Ecuación de Laplace y de Poisson. Propiedad del valor medio. Desigualdad de Harnack.  Funciones de Green. Propiedad del valor medio y desigualdad de Harnack para soluciones de la ecuación del calor. 
+
+
+
+
+
+
+
+Bibliografía: \cite{LawrenceC.Evans271,WalterCraig494,AlexanderKomech496,JulianFernandezBonder511,DavidBorthwick689,FritzJohn692,SandroSalsa693,AndrasVasy695,YehudaPinchover697,PavelDrabek698, AslakTveito699}.
+
+
+
+
+
+
  
  \item\textbf{Análisis Funcional(1916):}  Teoremas de Hahn-Banach. Principio de acotación uniforme.  Teoremas de la aplicación abierta y del grafo cerrado. Topologías débiles. Teoremas de Banach-Alaoglu,  Kakutani y  Eberlein–Šmulian. Espacios separables. Espacios de Hilbert. Bases ortonormales. Teorema de Lax-Milgram. Operadores en espacios de Hilbert. Operadores compactos. Descomposición espectral de operadores compactos autoadjuntos. Aplicaciones a problemas de Sturm-Liouville.
 
-Bibliografía sugerida: \cite{HaimBrezis130,EmmanueleDibenedetto159,FrancisClarke335,JohnBConway489,MichelWillem870,WalterRudin1039, MischaCotlar1454}.
+Bibliografía: \cite{HaimBrezis130,EmmanueleDibenedetto159,FrancisClarke335,JohnBConway489,MichelWillem870,WalterRudin1039, MischaCotlar1454}.
 
 \item\textbf{Trabajo Final (2038):} El trabajo
 final se elaborará a partir de alguna/s de las siguientes
@@ -889,11 +939,22 @@ revistas de reconocido prestigio,
 \end{itemize}
 
 El alumno realizará una monografía de  que a posteriori defenderá
-oralmente siguiendo las normas establecidas por la Facultad de Ciencias Exactas, Fís-Qcas y Naturales.
+oralmente siguiendo las normas establecidas por la FCEFQyN.
 
 \end{enumerate}
 
 
+\paragraph{Metodología}
+
+
+Una dificultad que atraviesan las carreras de Lic. en Matemática a nivel nacional es la escasa matriculación de estudiantes. A esto se le suma problemas originados por la deserción de los mismos, fundamentalmente en los primeros años de la carrera. 
+
+
+ Como todo  fenómeno socio-educativo,  es multicausal,  hay múltiples causas que contribuyen a la aparición de estos problemas. Por citar algunas, poca información de los estudiantes sobre el rol y funciones que un egresado en matemática tiene en nuestra sociedad, poca visibilidad de la carrera, la dificultad intrínseca que tiene el aprendizaje de la matemática, condiciones socio-económicas y culturales de los estudiantes, etc.
+\newline
+En cuanto a las dificultades de aprendizaje de la matemática, se ha observado una desarticulación entre niveles de enseñanza, esto es la incosistencia entre  las competencias y conocimientos que los planes de estudios suponen que posee  el    egresado de la escuela media  y las/os que efectivamente este tiene.
+\newline
+Por tal motivo, conjuntamente con la CCP de la Carrera de Prof. en Matemática, se propone crear un grupo de trabajo coordinado por ambas comisiones e integrado por los equipos docentes de asignaturas correspondientes a los dos primeros años de estas carreras con el fin de paulatinamente converger hacia un nuevo paradigma de enseñanza que tome en cuenta las condiciones de los alumnos ingresantes, las  miradas alternativas que surgen de la investigación en la didáctica de la matemática, enfoques no tradicionales en la enseñanza  de esta ciencia. Como ser una enseñanza que tome en consideración la evolución histórica de la ciencia, ver por ejemplo  \cite{DavidM.Bressoud121,StephenAbbott134,ErnstHairer633,DavidApplebaum639,OttoToeplitz642,DavidBressoud643,DavidM.Bressoud651,DavidM.Bressoud688}.
 
 
 
@@ -905,10 +966,27 @@ Se consideran las siguientes temáticas, cuyo abordaje será transversal al plan
 
 \begin{description}
 
-\item{\textbf{Ciencia de datos}} \textcolor{green}{Definirla} Probabilidades (1987), Estadística (1991) y Modelos de regresión y Métodos Empíricos (XXXX). \textcolor{green}{Completar}
+
+\item{\textbf{Trayecto en Matemática Pura (TMP)}} Entendemos por matemática pura aquellos estudios  matemáticos originados en problemas de la propia matemática. El nacimiento de lo que hoy denominamos  matemática pura fue un hito importante en  nuestra ciencia pues implicó la definición epistemológica que la ciencia matemática es independiente del universo sensible. Esto abrió multiples nuevas líneas de investigación que, eventualmente, terminaron por nutrir también a la matemática aplicada. 
+
+Como un aprendizaje significativo de nuestra ciencia implica que podamos reflexionar sobre la matemática en si  misma y analizar críticamente sus conclusiones y resultados. Todas las asignaturas específicas  de la carrera aportan al trayecto de formación en matemática pura. Sin embargo algunas se caracterizan por hacerlo con más claridad y profundidad. Tal es el caso de Topología (1917), Medida e Integración (2263), Variables Complejas (1911), Geometría Diferencial (1915), Estructuras Algebraicas (1993) y Análisis Funcional (1916). 
+
+ 
+\item{\textbf{Trayecto en Matemática Aplicada (TMA)}} Entendemos por matemática aplicada aquellas teorías matemáticas destinadas a resolver problemas originados en  otras ciencias o que provengan del estudio  del  mundo sensible. 
+
+Como un objetivo central en la actualidad es la formación integral e interdisciplinaria del estudiante, es importante que la mayor cantidad de  espacios curriculares posibles muestren aplicaciones de las teorías trabajadas. Sin embargo hay áreas de la matemática cuyo  nacimiento
+vino fuertemente inspirado en las aplicaciones y consideramos una obligación que esto se vea reflejado en el plan de estudios. Las materias en esas condiciones son: Cálculo numérico y computacional (2030), Algebra Lineal Aplicada (2261), Variables Complejas (1911), Ecuaciones Diferenciales (1913), Introducción a las Ecuaciones en Derivadas Parciales (2212), Física (1930).
 
 
-\item{\textbf{Tecnologías de la información (TI)}}  Desde tiempor remotos, la labor de los matemáticos, tanto que esta labor fuese pura o aplicada,  fue asistida con el uso de  recursos tecnológicos. En la actualidad, el uso de la tecnología se ha tornado una componente central. Ella es utilizado, por ejemplo, para establecer conjeturas, verificando la validéz de un resultado en un gran número de casos.  Procesando grandes volúmenes de operaciones que intervienen en la simulación de sistemas complejos, como ser en dinámica molecular o mecánica de fluídos. Analizando datos contenidos en bases de tamaño muy grande, etc. 
+
+
+\item{\textbf{Trayecto Ciencia de Datos (TCD).}}   Pretende dar cuenta del surgimiento de nuevos objetos de estudio de las ciencias a partir de la conjugación de la aparición de nuevas tecnologías y la generación, almacenamiento y tratamiento de grandes volúmenes de datos. Estos emergentes han producido una creciente articulación entre líneas disciplinares como análisis y análisis numérico, machine learning, estadística, optimización, aprendizaje
+estadítico, entre otras. Además de las materias de formación básica comúnes a todos los trayectos El TCD se compone de las siguientes asignaturas Taller de Informática (1927), Probabilidades (1987), Estadística (1991), Álgebra Lineal Aplicada 2261),  y Modelos de Regresión y Métodos Empíricos.  Se prevé una electiva  de la Licenciatura en Ciencias de la Computación como Programación Avanzada y Algoritmos II. 
+
+
+
+
+\item{\textbf{Trayecto en Tecnologías de la Información (TTI)}}  Desde tiempos remotos, la labor de los matemáticos fue asistida con el uso de  recursos tecnológicos. En la actualidad,  las Tecnologías de la Información (TI) se han tornado una componente central tanto en el terreno de la matemática pura como aplicada. Son utilizadas, por ejemplo, para establecer conjeturas, verificando la validez de un resultado en un gran número de casos.  Procesando grandes volúmenes de operaciones que intervienen en la simulación de sistemas complejos, como ser en dinámica molecular o mecánica de fluídos. Analizando datos contenidos en bases de tamaño muy grande, etc. 
 
 Siguiendo a \cite{society2012siam}: 
 \begin{quote}
@@ -917,23 +995,14 @@ Problemas industriales actuales... Las empresas necesitan experiencia en program
  y una amplia gama de herramientas de software que funcionan en plataformas paralelas y distribuidas....Áreas de TI de rápido crecimiento son la visión artificial, procesamiento de imágenes, el procesamiento del lenguaje natural, recuperación de información y aprendizaje automático. >>
 \end{quote}
 
-El plan actual contempla una materia obligatoria específica  relativa a TI: Taller de Informática (1927). Es importante que este recurso sea utilizado en otros espacios curriculares. Se planifica diseñar prácticas para los estudiantes que contemplen el uso de TI en:  Algebra Lineal Aplicada (2261), Ecuaciones Diferenciales (1913), Introducción a la Ecuaciones en Derivadas Parciales (2212) , Modelos de Regresión y Métodos Empiricos (XXXX) y Cálculo Numérico Computacional.
+El plan actual contempla una materia obligatoria específica  relativa a TI: Taller de Informática (1927).  A su vez se planifica diseñar prácticas para los estudiantes que contemplen el uso de TI en:  Algebra Lineal Aplicada (2261), Ecuaciones Diferenciales (1913), Introducción a la Ecuaciones en Derivadas Parciales (2212) , Modelos de Regresión y Métodos Empiricos (COD6) y Cálculo Numérico Computacional (2030). 
 
 
-\item{\textbf{Formación socio-política-cultural y pedagógica}}\textcolor{green}{Completar} Estudio Realidad Nacional, Sociología de la Educación.
+\item{\textbf{Trayecto de Formación Socio-Política-Cultural y Pedagógica (TFSPCP)}}  Con el objeto de una formación integral del futuro egresado y entendiendo que su paso por la universidad le debe aportar herramientas para entender la sociedad y reflexionar de manera crítica sobre el ejercicio de la profesión. Como se señala en el documento  ``Hacia un currículo contextualizado, 
+flexible e integrado, lineamientos para orientar la innovación curricular'' (Aprobado por Resolución Nº 297/2017 del Consejo Superior) ``este trayecto, apunta a la dimensión crítico-social de la formación, a la creación de conciencia social y ciudadana y a la participación en la cultura nacional''. Se prevé UNA asignatura obligatoria en el   TFSPCP:  Sociología de la Educación (2064).
 
 
 
-
-\item{\textbf{Matemática Pura}} Entendemos por matemática pura aquellos estudios  matemáticos originados en problemas de la propia matemática. El nacimiento de lo que hoy denominamos  matemática pura fue un hito importante en  nuestra ciencia pues implicó la definición epistemológica que la ciencia matemática es independiente del universo sensible. Esto abrió multiples nuevas líneas de investigación que, eventualmente, terminaron por nutrir también a la matemática aplicada. 
-
-Como un aprendizaje significativo de nuestra ciencia implica que podamos reflexionar sobre la matemática en si  misma y analizar críticamente sus conclusiones y resultados. Todas las asignaturas específicas  de la carrera aportan al trayecto de formación en matemática pura. Sin embargo algunas se caracterizan por hacerlo con más claridad y profundidad. Tal es el caso de Topología (1917), Medida e Integraciónc(2263), Variables Complejas (1911), Geometría Diferencial (1915), Estructuras Algebraicas (1993) y Análisis Funcional (1916). 
-
- 
-\item{\textbf{Matemática Aplicada}} Entendemos por matemática aplicada aquellas teorías matemáticas destinadas a resolver problemas originados en  otras ciencias o que provengan del estudio  del  mundo sensible. 
-
-Como un objetivo central en la actualidad es la formación integral e interdisciplinaria del estudiante, es importante que la mayor cantidad de  espacios curriculares posibles muestren aplicaciones de las teorías trabajadas. Sin embargo hay áreas de la matemática cuyo  nacimiento
-vino fuertemente inspirado en las aplicaciones y consideramos una obligación que esto se vea reflejado en el plan de estudios. Las materias en esas condiciones son: Cálculo numérico y computacional (2030), Algebra Lineal Aplicada (2261), Variables Complejas (1911), Ecuaciones Diferenciales (1913), Introducción a las Ecuaciones en Derivadas Parciales (2212), Física (1930).
 
 
 
@@ -951,55 +1020,61 @@ vino fuertemente inspirado en las aplicaciones y consideramos una obligación qu
 \multicolumn{8}{|c|}{Materias Obligatorias}\\ \hline
 \rowcolor[gray]{.9}
 Año  &    Cuat. & Código   & Asignatura &  \multicolumn{2}{|c|}{Para Cursar}  & \multicolumn{2}{|c|}{Para Rendir}\\ \hline
-     &          &          &            & Regular & Aprobada & Regular &Aprobada \\ \hline
-I  & 1    & 1921   &    Cálculo I  &--&--&--&-- \\ \hline
-I  & 1    & 1925   &  Matemática Discreta&--&--&--&-- \\ \hline
+     &          &          &            & Regular & Aprobada & Regular & Aprobada \\ \hline
+I  & 1    & COD1  &    Introducción al Cálculo   &--&--&--&-- \\ \hline
+I  & 1    & 1904   &  Fundamentos de Álgebra &--&--&--&-- \\ \hline
 I  & 1   &  1935 &   Geometría I        &--&--&--&-- \\ \hline
-I  & 2   &  1928 & Cálculo II            &1921 &-- &--&1921 \\ \hline
+I  & 2   &  COD2 & Análisis Matemático I            &COD1 &-- &--& COD1 \\ \hline
 
-I  & 2   &1933    &Algebra Lineal I    &1925 &--&--&1925 \\ \hline
+I  & 2   &1933    & Algebra Lineal I    &1904 &--&--&1904 \\ \hline
+I  & 2  &  COD3 &   Geometría Analítica        &1935&--&--&1935 \\ \hline
 
-I  & 2   &1927    &Taller de Informática  &1925  &--&--& 1925 \\ \hline
 
-II & 1   &1929    & Cálculo III          & 1933\newline 1928 &1921 \newline 1935&--& 1933\newline 1928  \newline 1935 \\ \hline
+II & 1   & COD4    & Análisis Matemático II          & COD2 \newline COD3 & COD1 &--& COD2 \newline COD3\\ \hline
 
-II   & 1  &  2030  &Cálculo Numérico Computacional &1928 \newline 1927 &1921 &--&
-1928\newline
-1927\\ \hline
-
+II  & 1   &1927    &Taller de Informática  & COD1\newline 1904  &--&--& COD1\newline 1904 \\ \hline
 II & A &   1976 &  Inglés &--&--&--&-- \\ \hline
+II & 1 & 2261 & Algebra Lineal Aplicada &--&1933&--&1933 \\ \hline
 
-II & 2 &1987 & Probabilidades  &1929 &1928&--&1929\\ \hline
+II & 2 &1987 & Probabilidades  &COD4\newline 1933 &COD2&--&COD4\newline 1933\\ \hline
 
-II & 2& 1993 &Estructuras Algebraicas &1933&1925&--& 1933\\ \hline
+II & 2& 1993 &Estructuras Algebraicas &1933&1904&--& 1933\\ \hline
 
-III & 1 & 2261 & Algebra Lineal Aplicada &--&1933&--&1933 \\ \hline
+
 
 III & 1 & 1991 & Estadística &1987&--&--&1987 \\ \hline
 
 
-III & 1 & XXXX &Fundamentos de Análisis &-- &1929&--&1929 \\ \hline
+III & 1 & COD5 &Fundamentos de Análisis &-- &COD4&--&COD4 \\ \hline
+III   & 1  &  2030  & Cálculo Numérico Computacional &COD4 \newline 1927\newline 2261 &COD2 &--&
+COD4 \newline 1927\newline 2261\\ \hline
 
-III &2 & 1930 &Física  &--&1929&--&1929 \newline
+
+
+
+
+
+
+III &2 & 1930 &Física  &--&COD4&--&COD4 \newline
 \\ \hline
-III & 2 & 1917 &Topología &-- &XXXX&--&XXXX \\ \hline
-
-III & 2 &2262 &Variables Complejas  &XXXX&-&---&XXXX \\ \hline
 
 
+III & 2 &2262 &Variables Complejas  &COD4\newline 1933&-&---&COD4\newline 1933\\ \hline
 
-III & 2 & 6235 & Estudio de la Realidad Nacional &--&--&--&--\\ \hline
-
-IV & 1 &2263 &Medida e Integración &XXXX&--&--&XXXX \\ \hline
-
-IV & 1 & 1913 & Ecuaciones Diferenciales &1917\newline
-2261&--&--&1917\newline
-2261\\ \hline
+III & 2 & 1917 &Topología &COD5 &COD4&--&COD5 \\ \hline
 
 
 
-IV & 2 & 1915 & Geometría Diferencial & XXXX\newline
-2261 &--&--& XXXX\newline
+IV & 1 &2263 &Medida e Integración &--&COD5&--&COD5 \\ \hline
+
+IV & 1 & 1913 & Ecuaciones Diferenciales &COD5\newline
+2261&COD4&--&COD5\newline
+2261\newline COD4 \\ \hline
+
+
+
+IV & 2 & 1915 & Geometría Diferencial & COD4\newline
+2261 &--&--& COD4\newline
 2261\\ \hline
 
 IV & 2 & 2265 & Modelos de Regresión y Métodos Empíricos &1991&--&--&1991\\ \hline
@@ -1025,19 +1100,20 @@ IV & 2 & 2038 & Trabajo Final & 2261 &2263\newline 1976 &--& 2261\newline
 
 \subsubsection{Otros requisitos necesarios para el cumplimiento del Plan de Estudios: señalar los seminarios, trabajos de campo, prácticas profesionales, residencias, idiomas, trabajos de tesis u otros requisitos exigidos para el otorgamiento del título.} 
 
-El estudiante debe acreditar 60hs \textcolor{green}{analizar la cantidad} en cursos y seminarios extracurriculares. Pudiendo acreditar
+El estudiante debe acreditar 60hs \textcolor{green}{ANALIZAR CANTIDAD} en cursos y seminarios extracurriculares y otras actividades. Pudiendo acreditar
 \begin{itemize}
  \item Participación en seminarios, por ejemplo el seminario académico que se lleva regularmente adelante en el Dpto de Matemática.
  \item Prácticas Socio-Comunitarias 
  \item Idiomas
  \item Cursos estracurriculares en el marco de congresos.
  \item Actividades de Investigación-extensión reconocidas.
+ \item Participación acreditada en organos colegiados y centros de estudiantes.  
  \end{itemize}
 
 
 \subsubsection{Articulación con otros planes de estudio}
 
-\textcolor{green}{Completar, con el profesorado por ejemplo}
+\textcolor{green}{AGREGAMOS?}
 
 \paragraph{Equivalencias entre el plan nuevo y el plan 2008} \fontsize{11pt}{11pt}\selectfont
 \begin{center}
@@ -1052,19 +1128,19 @@ Plan 2022 versión 0}   \\
 \hline
 
 
-Cálculo I       (1921)               &Cálculo I    (1921)      \\   \hline
+Cálculo I       (1921)               &Introducción al Cálculo    (COD1)      \\   \hline
 
-Matemática Discreta   (1925)          &Matemática Discreta (1925) \\ \hline
+Matemática Discreta   (1925)          &Fundamentos de Álgebra (1904) \\ \hline
 
 Geometría I        (1935)             & Geometría I (1935)   \\ \hline
 
-Cálculo II         (1928)             & Cálculo II (1928)  \\ \hline
+Cálculo II         (1928)             & Análisis Matemático I (COD2)  \\ \hline
 
 Álgebra Lineal I      (1933)          & Álgebra Lineal I  (1933)  \\ \hline
 
 Taller de informática  (1927)        &Taller de informática (1927) \\ \hline
 
-Cálculo III        (1929)             & Cálculo III (1929)  \\ \hline
+Cálculo III        (1929)             & Análisis Matemático II (COD4)  \\ \hline
 
 Cálculo Numérico  Computacional (2030) &Cálculo Numérico Computacional (2030) 
 \\ \hline
@@ -1081,9 +1157,9 @@ Estadística     (1991)    &Estadística     (1991)        \\ \hline
 
 Física          (1930)                & Física    (1930)             \\ \hline
 
-Topología   (1917) + coloquio & Fundamentos de Análisis   (XXXX)                      \\
+Topología   (1917) + coloquio & Fundamentos de Análisis   (COD5)                      \\
 \hline
-Topología   (1917) + Variable Compleja y Análisis de Fourier (2262) & Fundamentos de Análisis   (XXXX)                      \\
+Topología   (1917) + Variable Compleja y Análisis de Fourier (2262) & Fundamentos de Análisis   (COD5)                      \\
 \hline
 
 
@@ -1093,10 +1169,10 @@ Topología   (1917)                &Topología   (1917)       \\
 
 Álgebra Lineal Aplicada (2261)      & Álgebra Lineal Aplicada (2261)       \\\hline
 
-Variable Compleja y Análisis de Fourier (2262) & Variables Complejas (1911) + coloquio                 \\
+Variable Compleja y Análisis de Fourier (2262) + coloquio   & Variables Complejas (1911)               \\
 \hline
 
-Medida e Integración (2263)   & Medida e Integración (2263) \\
+Medida e Integración (2263)+coloquio   & Medida e Integración (2263) \\
 \hline
 
 Ecuaciones Diferenciales    (1913)     &Ecuaciones Diferenciales (1913)   \\
@@ -1169,11 +1245,11 @@ Participar en equipos interdisciplinarios que utilicen la matemática.
   &
 
   
- Se prevé desarrollar aplicaciones de la matemática y modelización en muchas de las asignaturas del plan de estudio, como por ejemplo,  Física, Variables Complejas, Cálculo Numérico, Álgebra Lineal Aplicada, Estadística, Ecuaciones Diferenciales (ordinarias y parciales), Modelos de Regresión y Métodos Empíricos y además, eventualmente, en el ciclo de especialización.
+ Se prevé desarrollar aplicaciones de la matemática y modelización en muchas de las asignaturas del plan de estudio, fundamentalment en aquellas relacionadas con el TMA y TTI y TCD, como por ejemplo,  Física, Variables Complejas, Cálculo Numérico, Álgebra Lineal Aplicada, Estadística, Ecuaciones Diferenciales (ordinarias y parciales), Modelos de Regresión y Métodos Empíricos y además, eventualmente, en el ciclo de especialización.
   
-  El aprendizaje en el uso de herramientas computacionales para resolver problemas se realizará en  Taller de Informática, Ecuaciones Diferenciales (ordinarias y parciales), Modelos de Regresión y Métodos Empírico.
+  El aprendizaje en el uso de herramientas computacionales para resolver problemas se realizará en  TTI.
   
-  Se planifica desarrollar la capacidad de manejar grandes conjuntos de datos en Modelos de Regresión y Métodos Empíricos.
+  Se planifica desarrollar la capacidad de manejar grandes conjuntos de datos en el TCD.
 
 
  La inclusión de una materia electiva pone al estudiante en situación de comunicarse con profesionales y pares de otras ciencias.
@@ -1218,9 +1294,9 @@ Expresarse correctamente utilizando el lenguaje de la matemática.
   
   2)Más específicamente, el trabajo final de la carrera está destinado a la realización de un proceso de investigación.
   
-  3) El Trayecto en matemática pura aportará a las capacidades y conocimientos vinculados con la investigación en matemática pura. 
+  3) El TMP aportará a las capacidades y conocimientos vinculados con la investigación en matemática pura. 
   
-  3) En cuanto a los perfiles más vinculados a la investigacióon interdisciplinaria y al análisis de datos se desarrollan en: trayectos curriculares en matemática aplicada y ciencia de datos.
+  3) En cuanto a los perfiles más vinculados a la investigacióon interdisciplinaria y al análisis de datos se desarrollan en los TMA y TCD. 
   
   \\ \hline
  Intervenir como peritos matemáticos en organismos públicos o pri-
@@ -1229,7 +1305,7 @@ vados tales como, INDEC, empresas que realicen desarrollos tecnológicos, banco
   &   
    \emph{Conocimientos:}
    
-   Muchos conocimientos pueden ser potencialemnte útiles para este alcance. Por la incidencia que han adquirido en la actualidad se destacan aquellos vinculados con el análisis de datos y las tecnologías de la información. Estas temáticas son abordadas en los trayectos de Ciencias de Datos e Informática. Además es relevante una formación en métodos numéricos
+   Muchos conocimientos pueden ser potencialmente útiles para este alcance. Por la incidencia que han adquirido en la actualidad se destacan aquellos vinculados con el análisis de datos y las tecnologías de la información.  Además es relevante una formación en métodos numéricos y modelización.
    
    
    \emph{Capacidades para:}
@@ -1256,7 +1332,7 @@ se con otros especialistas,
   
   
   
-  &  Trayectos: formación socio-político-cultural y pedagógica, ciencia de datos, matemática aplicada y Tecnología de la información.
+  &  Contenidos abordados en los TMA, TCD, TTI y TFSPCyP.
   
   \\ \hline
 
@@ -1264,16 +1340,14 @@ se con otros especialistas,
   & Puede continuar con estudios de posgrado.
   & Claramente este es un  alcance general de una carrera universitaria y no se pueden identificar contenidos o actividades específicas a él. Sin embargo, se resalta que la realización de un trabajo final facilita el desempeño del estudiante en futuras carreras de posgrado.  
   
-  Por otra parte la la profundidad de los temas abordados en el trayecto de matemática pura permiten la inserción del egresado en programas de posgrado en instituciones de reconocido prestigio con una alta exigencia de nivel académico.  \\ \hline
+  Por otra parte la profundidad de los temas abordados en el TMP permiten la inserción del egresado en programas de posgrado en instituciones de reconocido prestigio con una alta exigencia de nivel académico.  \\ \hline
 
   Participar de los equipos docentes dirigidos a la enseñanza de la matemática en los niveles superiores de enseñanza.
   
   & 
      \emph{Conocimientos:}
    
-   Pedagogía?
-   
-   Didáctica? 
+   Pedagogía.  Contenidos discilplinares específicos. 
    
    
    
@@ -1293,14 +1367,81 @@ se con otros especialistas,
 
   
   
-  &  Trayecto de formación socio-política-cultural y pedagógica.\\ \hline
+  &  El TFSPCyP aporta en la dirección de un ejercicio crítico del rol de enseñar. Las asignaturas disciplinares específicas forman al futuro egresado en el objeto que debe ser eneñado. La formación interdisciplinaria (Física 1930) y la electiva  facilitan la integración del egeresado en equipos docentes involucrados en la enseñanza de la matemática para estudiantes de disciplinas no matemáticas. \\ \hline
 \end{tabularx}
 \end{center}
 \normalsize
 
 
 \subsubsection{Criterios para orientar la implementación del Plan de Estudio en coherencia con las propuestas epistemológicas y metodológicas que lo constituyen. Seguimiento y acompañamiento académico a la implementación, gestión y evaluación del Plan.
-} \textcolor{green}{Nuevo}
+} 
+
+\paragraph{Criterios}
+
+\begin{description}
+  
+
+
+
+\item{\textbf{Competencias}.} Proponer al estudiante prácticas y actividades que desarrollen las competencias (esto es el aprender a hacer) enumeradas en la subsección \ref{subsec:competencias}. Identificar de manera crítica cuáles de estas competencias son desarrolladas en cada actividad curricular.
+
+
+\item{\textbf{Aplicaciones}.}  Contextualizar el conocimiento matemático dentro de la ciencia en general y dentro de la sociedad. Desarrollar aplicaciones de los conocimientos a otras áreas del saber y a la resolución de problemas del mundo real. 
+
+
+
+\item{\textbf{Articulaciones verticales y horizontales.}} Coordinar el abordaje de  temas entre los distintos espacios curriculares. Establecer estrategias conjuntas para la enseñanza y asociaciones entre materias relacionadas, ya sea por ser contemporaneidad en su dictado, por correlatividad o por pertenecer a un mismo trayecto del plan. 
+
+
+\item{ \textbf{Sentido de los saberes.}} <<Problematizar, indagar y reflexionar constantemente el sentido de la formación
+universitaria con la intención de mejorarla; además de asumir la responsabilidad social del
+conocimiento en términos de su integración con las prácticas profesionales, de investigación, de
+vinculación con el contexto y sustentada en principios éticos y de transformación hacia una
+sociedad justa y con valores igualitarios, sustentables y ciudadanos.>> \footnote{Resolución CS-UNRC 297/2017, ``Hacia   un   currículo contextualizado, flexible e integrado. Lineamientos para la orientación de la innovación  curricular''}
+
+\item{\textbf{Trabajo en equipo}.} Incentivar en el estudiante estrategias de trabajo colectivo. Proponer actividades curriculares   de caracter  grupal.
+
+
+
+\item{ \textbf{Alfabetización académica.}} Proponer a los estudiantes actividades los preparen para la
+elaboración de sus trabajos finales de grado, para la investigación y para la escritura en general. 
+
+
+
+
+\item{\textbf{Prácticas Socio-Comunitarias.} } Incorporar a las materias este tipo de prácticas.
+
+
+\item{ \textbf{Integración de tecnologías de la información}.} Proponer a los estudiantes actividades que incluyan el uso de las tecnologías de la información y la programación.  
+
+
+
+\item{\textbf{Políticas de género.}}
+En el contexto de diferentes transformaciones institucionales como la Creación de la Comisión de Género de la Unión Matemática Argentina, la incorporación del apartado 6.f) al Artículo Segundo del nuevo Estatuto de la UMA, la creación de la Red Federal de Género y Diversidades del CONICET, entre otros antecedentes, se plantea la importancia de acompañar estas transformaciones con  modificaciones curriculares. 
+En este plan y en consonancia con la incorporación del apartado 6.f) al Artículo Segundo del nuevo Estatuto de la UMA, se  busca promover la equidad en relación a los derechos de las mujeres e identidades disidentes en todos los quehaceres matemáticos  como así también,  procurar la eliminación de todo tipo de violencia y discriminación basadas en la identidad sexo-genérica.
+También, se busca favorecer “las acciones de discriminación positiva que tiendan a superar los problemas relacionados con las inequidades y el no reconocimiento de derechos”  y    “ promover el apoyo de las vocaciones matemáticas en niñas y adolescentes y jóvenes. Visibilizar las posibilidades y los logros de matemáticas como modo de promoción de vocaciones”.
+ 
+ \item{\textbf{Documentación}} Para otras precisiones sobre criterios para la implementación de este plan se sugiere la lectura de los lineamientos curriculares de la UNRC \footnote{``Hacia   un   currículo contextualizado, flexible e integrado'', Resolución CS-UNRC 297/2017 }
+\footnote{ Resolución CS-UNRC 008/2021}, por lineamientos curriculares definidos en  \cite{paniagua2013educacion}, y por consideraciones contenidas en documentos producidos por diferentes asociaciones que agrupan profesionales matemáticos: \cite{uma,society1996siam,society2012siam,damlamian2013educational}.
+
+\end{description}
+
+
+\paragraph{Seguimiento} 
+
+El seguimiento de la ejecución de los planes de estudios será llevado adelate por la CCP de la carrera según lo estable  la Resolución CD-FCEFQyN 269/14 mediante las siguientes acciones:
+
+\begin{itemize}
+ \item Revisando los programas de las materias en cuanto a contenidos mínimos y perfiles del título.
+ \item Receptando junto con la Subsecretaría de Asuntos Estudiantiles problemáticas que puedan aparecer entre los estudiantes para cursar y/o rendir asignaturas.
+ \item Informando al Consejo del Departamento y a los docentes a cargo de las actividades curriculares  sobre criterios a tener en cuenta en la implementación del plan.
+ \item Organizando jornadas de reflexión sobre la práctica docente en cuanto a metodologías de enseñanza y evaluación, de identificación de objetos epistemológicos emergentes  o la recuperación de algunos viejos que adquieren nueva significación y relevancia.
+ 
+ \item Promoviendo la realización de cursos de posgrado dirigidos a la actualización docente, en particular para dar cuenta de las innovaciones contenidas en este plan.
+ 
+ \item Analizando propuestas de formación para el ciclo de especialización.
+ 
+\end{itemize}
 
 
 \section{Recursos Humanos}
@@ -1308,67 +1449,78 @@ se con otros especialistas,
 
 \subsection{Personal docente}
 
-\textcolor{red}{No lo modifiqué. Creo que cuando presentemos el nuevo plan de estudios estaremos en condiciones de citar nuestro plan de desarrollo.}
+La composición actual del Dpto de Matemática es la siguiente:
 
-El Departamento de Matemática cuenta con una planta docente
+\begin{tabularx}{1\textwidth}{|l|l|l|l|l|} \hline  
+ \rowcolor[gray]{.9}
+ Cargo &\multicolumn{3}{|l|}{Dedicación} & Total\\ \hline
+ \rowcolor[gray]{.9}
+    &  E  &  SE  &  S &    \\ \hline  
+PT & 2 & & & 2\\ \hline  
+PAS & 4 & & & 4 \\ \hline
+PAD & 14 & 3 & & 17 \\ \hline  
+JTP & 7 & 2 & & 9\\ \hline  
+Aux1 & 1 & 3 & 6 & 10 \\ \hline  
+\end{tabularx}
+
+De este plantel docente,  14 tienen  el título de doctor y 18 de magíster. Se considera que se cuenta con una planta docente
 capacitada para llevar a cabo la totalidad del Plan de
 Licenciatura propuesto en lo que  respecta a las
 asignaturas específicas de matemática. Además se solicitará apoyo
-al Dpto. de Física para el dictado de Física y a la facultad de
-Cs. Humanas para el dictado de Inglés y Estudio de la Realidad Nacional,
-como así también a otros departamentos o facultades para el
-dictado de algunas asignaturas optativas. Para el fortalecimiento
-de algunas áreas, como por ejemplo álgebra y geometría, sería
-deseable incorporar al plantel  docente investigadores
-especializados en estos temas. Dado que el  dictado de esta
-carrera debe compatibilizarse con la carrera del profesorado y con
-aquellas carreras a las  que presta apoyo el dpto, sería
-importante incrementar la planta docente hasta que cada docente
-pueda ocuparse del dictado de sólo una materia por cuatrimestre.
+al Dpto. de Física para el dictado de Física y a la Facultad de
+Cs. Humanas para el dictado de Inglés, Estudio de la Realidad Nacional y sociología de la Educación como así también a otros departamentos o facultades para el
+dictado de algunas asignaturas electivas. 
 
 \subsection{Personal técnico y administrativo}
-\textcolor{red}{No lo modifiqué. Creo que cuando presentemos el nuevo plan de estudios estaremos en condiciones de citar nuestro plan de desarrollo.}
 
-La Universidad, la Facultad de Ciencias Exactas, Físico-Químicas y
-Naturales y el Dpto. de Matemática cuentan con personal
-administrativo suficiente para desarrollar esta carrera.
+La UNRC, FCEFQyN cuentan con personal
+administrativo suficiente para desarrollar esta carrera. Para la ejecución de la carrera fudamentalmente   se requerirá la participación del área de registro de alumnos de la FCEFQyN, del Departamento de Coordinación de Aulas y Horarios (DCAyH), del área de Salud, Departamento de Becas, Diplomas y del personal administrativo afectado al DM.  
 
-Durante los últimos años han aparecido nuevas necesidades
-asociadas a recursos informáticos, como por ejemplo el
-mantenimiento y desarrollo de un laboratorio de computación y el
-mantenimiento  de la pagina web del dpto. Este último recurso es
-importante para favorecer la permanencia en la carrera de los
-alumnos que trabajan, que es una amplia mayoría. Por estos
-motivos se considera conveniente incorporar personal técnico
-especializado en informática.
 
 
 \section{Infraestructura Edilicia y Equipamiento}
-\textcolor{red}{No lo modifiqué. Creo que cuando presentemos el nuevo plan de estudios estaremos en condiciones de citar nuestro plan de desarrollo.}
 
- La Universidad
-Nacional de Río Cuarto dispone de las aulas, oficinas y equipos de
-computación necesarios para el desarrollo normal de esta carrera.
-Así mismo la biblioteca cuenta con la bibliografía requerida así
-como con acceso en línea   a la biblioteca de Ciencia y Técnica de
-la Nación.
 
-\subsubsection{Infraestructura edilicia: descripción de los recursos disponibles y necesidades futuras (localización, capacidad, estado de conservación).} 
-\subsubsection{Equipamiento: descripción cualitativa y cuantitativa del equipamiento disponible y de las necesidades futuras.}
+A continuación se describen la infraestructura edilicia y el equipamiento del que dispone el Dpto. de Matemática para el dictado, no sólo  de la carrera de Lic. en Matemática, sino del Prof. en Matemática y de las restantes carreras de la FCEFQyN donde se presta servicio.   
+
+\subsection{Infraestructura edilicia: descripción de los recursos disponibles y necesidades futuras (localización, capacidad, estado de conservación).} 
+
+La Universidad Nacional de Río Cuarto dispone de una adecuada infraestructura edilicia  para el desarrollo normal de esta carrera. Cuenta con un Departamento de Coordinación de Aulas y Horarios (DCAyH) que planifica el uso de las 59 aulas comunes que tiene el campus universitario, más el Aula Mayor y el Aula Magna de la Facultad de Agronomía y Veterinaria.
+
+La FCEFQyN  cuenta con laboratorios de computación para el desarrollo de actividades prácticas que utilicen recursos informáticos. 
+
+ El DM tiene  una sala de uso prioritario que puede ser utilizada para el dictado de materias con pocos alumnos. Está sala esta equipada con ubn proyector de reciente adquisición, televisión y mobiliario variado. 
+
+Además de esta sala, la estructura edilicia del  DM está compuesta de   16 oficinas (de aprox. $10m^2$ cada una) para uso de su personal docente y administrativo y 4 espacios de uso común (1 cocina, 2 baños, y 1 depósito) compartidas con el Dpto de Computación. 
+
+
+Como parte de este proyecto se prevé incrementar la intensidad en el uso de tecnologías de la información  y recursos computacionales. En particular es deseable que los futuros Lic. en Matemática desarrollen competencias en programación de alto desempeño, como por ejemplo ejecutar métodos numéricos en paralelo. Para tal fin es recomendable que los estudiantes tengan acceso a un pequeño cluster o red de PCs, que no necesariamente debería estar alojado en el Dpto de Matemática, con el propósito de que adquiera experiencia la dirección enunciada. 
+
+
+\subsection{Equipamiento: descripción cualitativa y cuantitativa del equipamiento disponible y de las necesidades futuras.}
+
+
+La UNRC cuenta con  biblioteca en donde los estudiantes acceden a gran parte de la bibliografía propuesta en los distintos espaios curriculares. Además, desde el campus universitario, la biblioteca, a través de la Biblioteca Electrónica de Ciencia y Técnica de 
+la Nación,  ofrece el servicio de consulta de revistas  especilizadas, entre otras, desde algunas de las que se ofrecen desde SpringerLink, ScienceDirect EBSCOHost, JSTOR, Wiley Online Library,  Project euclid y  IEEE Xplore. La biblioteca además implementa un repositorio digital para, entre otras cosas, alojar las tesis de grado. 
+
+Las oficinas del Dpto de Matemática están equipadas con PCs. con acceso a internet.
+
+El DCAyH de la UNRC proveé de proyectores para utilizar en el dictado de las asignaturas. Además el Dpto de Matemática posee 6 proyectores de uso exclusivo.  
 
 
 
 \section{Asignación presupuestaria que demanda su
 implementación}
-\textcolor{red}{No lo modifiqué. Creo que cuando presentemos el nuevo plan de estudios estaremos en condiciones de citar nuestro plan de desarrollo.}
-La asignación presupuestaria necesaria para el desarrollo de esta
-carrera no se verá incrementada respecto del desarrollo de la
-Licenciatura vigente.
+
+La mayor parte de los recursos necesarios para la implementación de este proyecto son atribuibles al pago de los salarios del personal docente y administrativo necesario para sostenerlo. En menor proporción se producirán  consumos de materiales de docencia (tizas, marcadores,etc), de servicios (luz, agua, gas, etc). A esto hay que sumarle el presupuesto necesario para el mantenimiento   de los edificios y para compensar la depreciación y el desgaste de los bienes de uso que forman parte del patrimonio de la UNRC atribuible a su utilización en  la carrera. 
+
+Cómo no se prevé la creación de materias que requieran incoporar nuevos docentes y como se adoptó como criterio optimizar los recursos humanos involucrados en la carrera, compartiendo espacios comunes con otras carreras (caso Prof. en Matemática y Lic. en Física)  y, por último, como no se prevén consumos adicioneales a los que actualmente necesita la Lic. en Matemática, se considera que la asignación presupuestaria necesaria para el desarrollo de la
+carrera no se verá incrementada respecto del desarrollo del plan de Licenciatura en Matemática vigente.
 
 
 \section{Síntesis de la Propuesta presentada. }
 
-\textcolor{red}{Para el final}
+\textcolor{red}{LLENAR}
 
 
 

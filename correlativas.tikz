@@ -1,0 +1,65 @@
+\begin{tikzpicture}[scale=.5]
+\useasboundingbox (-15,16);
+	\begin{pgfonlayer}{nodelayer}
+		\node [style=new style 0] (1) at (-11.5, 16.5) {Introducci\'on al C\'alculo};
+		\node [style=new style 0] (2) at (0.5, 16.5) {Introducci\'on al \'Algebra};
+		\node [style=new style 0] (3) at (10.5, 16.25) {Geometr\'ia};
+		\node [style=new style 0] (4) at (-11.25, 9.75) {An\'alisis Matem\'atico I};
+		\node [style=new style 0] (5) at (1.5, 10.5) {\'Algebra\\ Lineal};
+		\node [style=new style 0] (6) at (10.75, 10) {Geometr\'ia\\ Anal\'itica};
+		\node [style=new style 0] (7) at (5.75, 3.75) {An\'alisis\\Matem\'atico II };
+		\node [style=new style 0] (9) at (-6, 1.25) {\'Algebra Lineal\\ Aplicada};
+		\node [style=new style 0] (11) at (-15.5, -0.25) {Taller de Inform\'atica};
+		\node [style=new style 0] (13) at (-5, -5.25) {Probabilidades};
+		\node [style=new style 0] (15) at (6, 8.25) {Estructuras\\ Algebraicas};
+		\node [style=new style 0] (17) at (-5, -8.75) {Estad\'istica};
+		\node [style=new style 0] (19) at (9.25, -5.5) {Fudamentos\\ de An\'alisis};
+		\node [style=new style 0] (21) at (-16.75, -12.75) {C\'alculo Num\'erico \\ Computacional};
+		\node [style=new style 0] (23) at (12, 2) {F\'isica};
+		\node [style=new style 0] (25) at (1.25, -2.5) {Variable\\ Compleja};
+		\node [style=new style 0] (27) at (7.25, -12) {Topolog\'ia};
+		\node [style=new style 0] (29) at (13.75, -11.75) {Medida e Integraci\'on};
+		\node [style=new style 0] (31) at (3, -8) {Ecuaciones\\ Diferenciales};
+		\node [style=new style 0] (33) at (12.75, -2.5) {Geometr\'ia\\ Difertencial};
+		\node [style=new style 0] (35) at (-5, -12.25) {Modelos de Regresi\'on y\\ M\'etodos Emp\'iricos };
+		\node [style=new style 0] (37) at (-1, -15.75) {Introducci\'on a las Ecuaciones en\\ Derivadas Parciales};
+		\node [style=new style 0] (39) at (10.5, -15.5) {An\'alisis Funcional};
+	\end{pgfonlayer}
+	\begin{pgfonlayer}{edgelayer}
+		\draw [style=EjeColorFlecha1] (1) to (4);
+		\draw [style=EjeColorFlecha1] (2) to (5);
+		\draw [style=EjeColorFlecha1] (3) to (6);
+		\draw [style=EjeColorFlecha1] (4) to (7);
+		\draw [style=EjeFlechaColor2] (1) to (7);
+		\draw [style=EjeColorFlecha1] (6) to (7);
+		\draw [style=EjeColorFlecha1]  (1) to (11);
+		\draw [style=EjeColorFlecha1] (2) to (11);
+		\draw [style=EjeColorFlecha1] (5) to (9);
+		\draw [style=EjeColorFlecha1] (7) to (13);
+		\draw [style=EjeColorFlecha1] (5) to (13);
+		\draw [style=EjeFlechaColor2, bend right=20] (4) to (13);
+		\draw [style=EjeColorFlecha1] (5) to (15);
+		\draw [style=EjeFlechaColor2] (2) to (15);
+		\draw [style=EjeColorFlecha1] (13) to (17);
+		\draw [style=EjeFlechaColor2, bend right=15] (7) to (19);
+		\draw [style=EjeFlechaColor2, bend right=15] (7) to (21);
+		\draw [style=EjeColorFlecha1] (11) to (21);
+		\draw [style=EjeColorFlecha1] (9) to (21);
+		\draw [style=EjeFlechaColor2, bend left=15, looseness=1.25] (4) to (21);
+		\draw [style=EjeFlechaColor2] (7) to (23);
+		\draw [style=EjeColorFlecha1] (7) to (25);
+		\draw [style=EjeColorFlecha1] (5) to (25);
+		\draw [style=EjeColorFlecha1] (19) to (27);
+		\draw [style=EjeFlechaColor2] (7) to (27);
+		\draw [style=EjeFlechaColor2] (19) to (29);
+		\draw [style=EjeColorFlecha1] (19) to (31);
+		\draw [style=EjeColorFlecha1] (9) to (31);
+		\draw [style=EjeFlechaColor2] (7) to (31);
+		\draw [style=EjeColorFlecha1, bend left=15] (7) to (33);
+		\draw [style=EjeColorFlecha1] (9) to (33);
+		\draw [style=EjeColorFlecha1] (17) to (35);
+		\draw [style=EjeColorFlecha1] (31) to (37);
+		\draw [style=EjeFlechaColor2] (27) to (39);
+		\draw [style=EjeFlechaColor2] (29) to (39);
+	\end{pgfonlayer}
+\end{tikzpicture}

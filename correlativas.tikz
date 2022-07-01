@@ -1,5 +1,5 @@
 \begin{tikzpicture}[scale=.5]
-\useasboundingbox (-15,16);
+\useasboundingbox (-15,18);
 	\begin{pgfonlayer}{nodelayer}
 		\node [style=new style 0] (1) at (-11.5, 16.5) {Introducci\'on al C\'alculo};
 		\node [style=new style 0] (2) at (0.5, 16.5) {Introducci\'on al \'Algebra};

@@ -16,7 +16,7 @@
 \usepackage{tabularx}
 \usepackage{xltabular}
 \usepackage{fontspec}
-\setsansfont{Roboto Condensed}
+
 \usepackage{colortbl}
 \usepackage{graphics}
 
@@ -38,13 +38,13 @@
 \tikzstyle{new style 0}=[fill={rgb,255: red,228; green,255; blue,165}, draw=black, shape=rectangle, tikzit fill={rgb,255: red,228; green,255; blue,165}, tikzit shape=rectangle, align=center]
 
 % Edge styles
-\tikzstyle{EjeColorFlecha1}=[draw=black, ->, fill=none, tikzit draw=black]
-\tikzstyle{EjeFlechaColor2}=[draw={rgb,255: red,243; green,14; blue,37}, ->, fill=none, tikzit draw={rgb,255: red,243; green,14; blue,37}]
+\tikzstyle{EjeColorFlecha1}=[draw=black, ->,very thick,densely dotted, fill=none, tikzit draw=black]
+\tikzstyle{EjeFlechaColor2}=[draw={rgb,255: red,243; green,14; blue,37}, ->, very thick,fill=none, tikzit draw={rgb,255: red,243; green,14; blue,37}]
 \tikzstyle{EjeFlechaColor3}=[draw={rgb,255: red,191; green,0; blue,64}, ->, tikzit draw={rgb,255: red,191; green,0; blue,64}]
 
 
 \newenvironment{colortext}[1]{\color{#1}}{\ignorespacesafterend}
-
+\setsansfont{TeXGyrePagella}%{Linux Biolinum O}%{Junicode}%{Carlito}%{Roboto Condensed}
 \renewcommand{\familydefault}{\sfdefault}
 
 
@@ -85,7 +85,7 @@
 \hyphenation{es-tu-dian-te}
 \hyphenation{po-si-ti-vis-mo} \hyphenation{mo-de-li-za}
 
-
+\hyphenation{gi-co}
 
 
 
@@ -418,7 +418,7 @@ El título no tiene actividades reservadas asociadas.
  
 
 
-\subsubsection{Conocimientos que constituyen el fundamento teórico-metodológico de su accionar profesional o académico.}
+\subsubsection{Conocimientos que constituyen el fundamento teórico-metodoló\-gico de su accionar profesional o académico.}
 
 Se aspira a que el/la Lic. en Matemática adquiera un conocimiento sólido en las siguientes  áreas de
  la matemática: Análisis Matemático, Funciones de una Variable Compleja,   Teoría de la Medida, Probabilidades,  Estadística,  Ciencia de Datos, Geometría Diferencial, Álgebra Lineal, Estructuras Algebraicas, Ecuaciones Diferenciales Ordinarias y Parciales, Cálculo Numérico y Análisis Funcional.
@@ -1601,8 +1601,7 @@ la Nación incorpore nuevos títulos de revistas y renueve la suscripción a otr
 
 
 \section{Síntesis de la Propuesta presentada. }
-
-\begin{color}{red}
+ 
  Se presenta el nuevo Plan de Estudios de la 
 Carrera de Licenciatura en Matemática, de la Facultad de Ciencias Exactas, 
 Físico - Químicas y Naturales (FCEFQyN), de la Universidad Nacional de Río Cuarto (UNRC), que  reemplaza el Plan de Estudio de la Licenciatura en Matemática aprobado por Resolución del Consejo Directivo (CD) Nº 156/08, 
@@ -1636,14 +1635,14 @@ Entre otras, este plan de estudios responde a las siguientes necesidades:
  
  Se incorporan las siguientes lineas temáticas nuevas como materias obligatorias: Ciencia de Datos, Análisis Funcional, Ecuaciones en Derivadas Parciales, Sociología de la Educación.
  
-\end{color}
+ 
 
 \newpage
 \appendix
 
-\section{Cuadro de correlativas}
+\section{Apéndice: Cuadro de correlativas}
 En el siguiente cuadro se muestra la dependencia entre las materias obligatorias del plan. En el cuadro se incluyen sólo
-materias que mantienen correlatividades. 
+materias que mantienen correlatividades. Se señalan las correlatividades necesarias para cursar las asignaturas. Una línea punteada significa que es necesario tener regularizada la materia, mientras que una línea llena quiere decir que se necesita tenerla aprobada.   
 
 \begin{figure}[h]
 \input{correlativas.tikz}

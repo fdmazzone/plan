@@ -20,7 +20,7 @@
 		\node [style=new style 0] (27) at (7.25, -12) {Topolog\'ia};
 		\node [style=new style 0] (29) at (13.75, -11.75) {Medida e Integraci\'on};
 		\node [style=new style 0] (31) at (3, -8) {Ecuaciones\\ Diferenciales};
-		\node [style=new style 0] (33) at (12.75, -2.5) {Geometr\'ia\\ Difertencial};
+		\node [style=new style 0] (33) at (12.75, -2.5) {Geometr\'ia\\ Diferencial};
 		\node [style=new style 0] (35) at (-5, -12.25) {Modelos de Regresi\'on y\\ M\'etodos Emp\'iricos };
 		\node [style=new style 0] (37) at (-1, -15.75) {Introducci\'on a las Ecuaciones en\\ Derivadas Parciales};
 		\node [style=new style 0] (39) at (10.5, -15.5) {An\'alisis Funcional};
